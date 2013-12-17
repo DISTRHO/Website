@@ -1,4 +1,0 @@
-distrho-web
-===========
-
-DISTRHO Website
