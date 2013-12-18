@@ -8,11 +8,11 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
   <div class="container" style="padding-top:60px;">
     <div class="rslides_container">
       <ul class="rslides" id="slider1">
-	    <li><img src="slider/mini-series.jpg" alt=""></li>
+        <li><img src="slider/mini-series.jpg" alt=""></li>
         <li><img src="slider/drowaudio.jpg" alt=""></li>
         <li><a href="tal_plugins.php"><img src="slider/tal-plugins.jpg" alt=""></a></li>
-		<li><img src="slider/pitcheddelay.jpg" alt=""></li>
-		<li><img src="slider/klangfalter.jpg" alt=""></li>
+        <li><img src="slider/pitcheddelay.jpg" alt=""></li>
+        <li><img src="slider/klangfalter.jpg" alt=""></li>
       </ul>
     </div>
   </div>
