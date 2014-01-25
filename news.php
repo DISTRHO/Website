@@ -6,6 +6,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
 <div class="main-box"><div class="container"><div class="inside"><div class="wrapper">
   <h2>News</h2>
   <ul class="news">
+
     <li>
       <figure><strong>18 May</strong><p>2012</p></figure>
       <h2 class="pointer"><a href="#">New release pack (2012-05-18)</a></h2>
@@ -13,6 +14,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
       This release brings LV2 support for all plugins.</p>
       <p><a href="http://www.kvraudio.com/forum/viewtopic.php?t=350181" target="_blank">Comments and discussion</a>
     </li>
+
     <li>
       <figure><strong>07 Oct</strong><p>2011</p></figure>
       <h2>Updated Linux ports, and added a few more</h2>
@@ -31,29 +33,34 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
       </p>
       <p>Note that, because some of these plugins are not actually Linux ports, we didn't added them to the <a href="ports.html">Ports</a> page.</p>
     </li>
+
     <li>
       <figure><strong>13 Sept</strong><p>2011</p></figure>
       <h2>Standalone versions</h2>
       <p>Standalone versions of the Arctican and TAL Plugins ports are now available. They are useful if your favourite host does not support VST plugins yet. They are also useful for packaging into distributions because they don't require any restricted code to compile (such as the VST SDK).<br/>
       These standalone versions can work with ALSA or JACK. You can grab them in the <a href="download.html">downloads</a> page.</p>
     </li>
+
     <li>
       <figure><strong>13 Sept</strong><p>2011</p></figure>
       <h2>Arctican Plugins - Linux Port</h2>
       <p>These simple but useful plugins were ported to Linux, now available to download for both 32bit and 64bit systems. In the pack you will find Arctican "The Function" and "The Pilgrim".<br/>
       <a href="ports.html#Arctican_Plugins">Read more...</a></p>
     </li>
+
     <li>
       <figure><strong>07 Sept</strong><p>2011</p></figure>
       <h2>TAL Plugins - Linux Port</h2>
       <p>This is our just job, and we're very excited about it. The awesome TAL plugins (those who use the Juce toolkit) were compiled for Linux, both in 32bit and 64bit form. In the pack you will find TAL Dub 3, Filter 1 &amp; 2, Reverb 1 &amp; 2&amp; 3, Vocoder 2 and NoiseMaker.<br/>
       <a href="ports.html#TAL_Plugins">Read more...</a></p>
     </li>
+
     <li>
       <figure><strong>05 Sept</strong><p>2011</p></figure>
       <h2>Website online</h2>
       <p>The DISTRHO website is now online. It's based on a simple and free HTML5 template from TemplateMonster.com. The overall look of the website might change during our first days, but after a few plugins get released, it should be all set.<br/>We're alive and here to rock your world!</p>
     </li>
+
     <li>
       <figure><strong>27 Apr</strong><p>2011</p></figure>
       <h2>SourceForge project created</h2>

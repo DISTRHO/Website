@@ -29,9 +29,8 @@ if (isset($_POST['changeColorNow']))
 <?php if ($CURRENT_PAGE == "index") { ?>
   <link rel="stylesheet" href="/css-<?php echo $GLOBALS["THEME"]; ?>/style-mini-news.css" type="text/css" media="all">
 <?php } ?>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Raleway:200,300' type='text/css' media="all">
   <script type="text/javascript" src="/js/jquery-1.4.2.min.js" ></script>
-  <link href='http://fonts.googleapis.com/css?family=Raleway:200,300' rel='stylesheet' type='text/css'>
-  <!--<link href='http://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>-->
 <?php if ($CURRENT_PAGE == "index") { ?>
   <script type="text/javascript" src="/js/roundabout.js"></script>
   <script type="text/javascript" src="/js/roundabout_shapes.js"></script>
@@ -44,24 +43,23 @@ if (isset($_POST['changeColorNow']))
   <script type="text/javascript">
 <?php
     if ($CURRENT_PAGE == "plugins")
-        $menu_classes = array("distrho");
+        $menuClasses = array("miniseries", "nekobi");
     else if ($CURRENT_PAGE == "ports")
-        $menu_classes = array("arctican", "drowaudio", "juced", "tal", "highlife", "hybridreverb2", "wolpertinger");
+        $menuClasses = array("arctican", "drowaudio", "juced", "tal", "wolpertinger");
     else
-        $menu_classes = array();
+        $menuClasses = array();
 ?>
     jQuery(document).ready(function() {
-<?php for ($i = 0; $i < count($menu_classes); $i++) { ?>
-        jQuery('img.menu_class_<?php echo $menu_classes[$i]; ?>').click(function () {
-            jQuery('ul.the_menu_<?php echo $menu_classes[$i]; ?>').slideToggle('fast');
+<?php for ($i = 0; $i < count($menuClasses); $i++) { ?>
+        jQuery('img.menu_class_<?php echo $menuClasses[$i]; ?>').click(function() {
+            jQuery('ul.the_menu_<?php echo $menuClasses[$i]; ?>').slideToggle('fast');
         });
 <?php } ?>
     });
   </script>
 <?php } ?>
-  <script>
-
-    $(function () {
+  <script type="text/javascript">
+    $(function() {
       // Slideshow 1
       $(".rslides").responsiveSlides({
           nav: false,
@@ -84,13 +82,13 @@ if (isset($_POST['changeColorNow']))
     <h1><a href="/index.html"><img src="/images/distrho-logo.png" alt="DISTRHO"/></a></h1>
     <nav>
       <ul>
-        <li><a href="/index.php"   <?php if ($CURRENT_PAGE == "index")   { ?> class="current" <?php } ?>>Home</a></li>
-        <li><a href="/news.php"    <?php if ($CURRENT_PAGE == "news")    { ?> class="current" <?php } ?>>News</a></li>
-        <li><a href="/plugins.php" <?php if ($CURRENT_PAGE == "plugins") { ?> class="current" <?php } ?>>Plugins</a></li>
-        <li><a href="/ports.php"   <?php if ($CURRENT_PAGE == "ports")   { ?> class="current" <?php } ?>>Ports</a></li>
-        <li><a href="/about.php"   <?php if ($CURRENT_PAGE == "about")   { ?> class="current" <?php } ?>>About</a></li>
+        <li><a href="/"        <?php if ($CURRENT_PAGE == "index")   { ?> class="current" <?php } ?>>Home</a></li>
+        <li><a href="/news"    <?php if ($CURRENT_PAGE == "news")    { ?> class="current" <?php } ?>>News</a></li>
+        <li><a href="/plugins" <?php if ($CURRENT_PAGE == "plugins") { ?> class="current" <?php } ?>>Plugins</a></li>
+        <li><a href="/ports"   <?php if ($CURRENT_PAGE == "ports")   { ?> class="current" <?php } ?>>Ports</a></li>
+        <li><a href="/about"   <?php if ($CURRENT_PAGE == "about")   { ?> class="current" <?php } ?>>About</a></li>
       </ul>
     </nav>
   </div>
-  <p style="color:white; font-size:1.2em;"> &nbsp;THIS PAGE IS UNDER CONSTRUCTION</p>
+  <p style="color:red; font-size:1.2em;"> &nbsp;THIS PAGE IS UNDER CONSTRUCTION</p>
 </header>

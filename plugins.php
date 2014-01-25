@@ -5,12 +5,13 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
 
 <div class="main-box"><div class="container">
 
+  <!-- Mini-Series -->
   <div class="inside"><div class="wrapper">
     <aside>
       <p style="font-size:0.8em; text-align:right">
-        <a href="screenshots/3bandeq.png"       rel="lightbox[distrho]"><img src="images/thumb_3bandeq.png" alt=""/></a><br/>3-Band EQ&nbsp;&nbsp;
-        <a href="screenshots/3bandsplitter.png" rel="lightbox[distrho]" class="hidden"></a>
-        <a href="screenshots/pingpongpan.png"   rel="lightbox[distrho]" class="hidden"></a>
+        <a href="images/screenshots/distrho-3bandeq.png"       rel="lightbox[miniseries]"><img src="images/screenshots/distrho-3bandeq_thumb.png" alt=""/></a><br/>3-Band EQ&nbsp;&nbsp;
+        <a href="images/screenshots/distrho-3bandsplitter.png" rel="lightbox[miniseries]" class="hidden"></a>
+        <a href="images/screenshots/distrho-pingpongpan.png"   rel="lightbox[miniseries]" class="hidden"></a>
       </p>
     </aside>
     <section class="content">
@@ -25,22 +26,38 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
           </ul>
         <p>
         <p><div class="button">
-          <img src="images/button_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_distrho" />
-          <ul class="the_menu the_menu_distrho">
-            <li><a href="http://sourceforge.net/projects/distrho/files/Plugins/distrho-plugins_linux32_20120518.7z/download" target="_blank">DISTRHO Plugins - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/Plugins/distrho-plugins_linux64_20120518.7z/download" target="_blank">DISTRHO Plugins - Linux 64bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/Plugins/distrho-plugins_win32_20120518-2.7z/download" target="_blank">DISTRHO Plugins - Windows 32bit</a></li>
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_miniseries" />
+          <ul class="the_menu the_menu_miniseries">
+            <li><a href="#" target="_blank">DISTRHO Mini-Series - Linux</a></li>
+            <li><a href="#" target="_blank">DISTRHO Mini-Series - MacOS</a></li>
+            <li><a href="#" target="_blank">DISTRHO Mini-Series - Windows</a></li>
           </ul>
         </p></div>
       </article>
     </section>
   </div></div>
 
-  <!-- TODO - remove dummy space when there are more plugins -->
+  <!-- Nekobi -->
   <div class="inside"><div class="wrapper">
+    <aside>
+      <p style="font-size:0.8em; text-align:right">
+        <a href="images/screenshots/distrho-nekobi.png" rel="lightbox[nekobi]"><img src="images/screenshots/distrho-nekobi_thumb.png" alt=""/></a><br/>Nekobi&nbsp;&nbsp;
+      </p>
+    </aside>
     <section class="content">
       <article>
-        <p><br><br><br></p>
+        <h2>DISTRHO Nekobi</h2>
+        <p>TODO.</p>
+        <p>Another TODO line.</p>
+        <p>
+        <p><div class="button">
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_nekobi" />
+          <ul class="the_menu the_menu_nekobi">
+            <li><a href="#" target="_blank">DISTRHO Nekobi - Linux</a></li>
+            <li><a href="#" target="_blank">DISTRHO Nekobi - MacOS</a></li>
+            <li><a href="#" target="_blank">DISTRHO Nekobi - Windows</a></li>
+          </ul>
+        </p></div>
       </article>
     </section>
   </div></div>

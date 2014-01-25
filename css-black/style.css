@@ -7,7 +7,7 @@ body {
         background:#F4F4F4;
         font-family: 'Raleway', sans-serif;
 		font-weight: 200;
-        font-size:100%; 
+        font-size:100%;
         line-height:1.125em;
         color:#BABABA;
 }
@@ -30,20 +30,25 @@ html, body { height:100%;background-color:#1E1F1F; }
                 overflow:hidden;
                 background:url(../images/header-bg_black.gif) 0 0 repeat-x;
         }
-        
+
         /*Gallery*/
         #gallery {
                 height:496px;
                 overflow:hidden;
-                background:url(../images/gallerry-bg.gif) 0 0 repeat-x;
+                background:url(../images/gallerry-bg_black.jpg) 0 0 repeat-x;
         }
-        
+        #gallery_plugins {
+                height:296px;
+                overflow:hidden;
+                background:url(../images/gallerry-bg_black.jpg) 0 0 repeat-x;
+        }
+
         /* Content */
         .content {
                 float: left;
                 width: 572px;
         }
-        
+
         /* Sidebar */
         aside{
                 float: left;
@@ -54,7 +59,7 @@ html, body { height:100%;background-color:#1E1F1F; }
                 float: left;
                 width: 302px;
                 margin:0px 52px 0 0;
-        }                 
+        }
         /* Footer */
         footer{
                 padding:18px 0 18px 0;
@@ -75,7 +80,7 @@ html, body { height:100%;background-color:#1E1F1F; }
 .alignright { text-align:right;}
 .aligncenter { text-align:center;}
 
-.wrapper { 
+.wrapper {
         width:100%;
         overflow:hidden;
 }
@@ -86,7 +91,7 @@ html, body { height:100%;background-color:#1E1F1F; }
 .imagebox{ padding:50px 0px 0px 0px;}
 
 /*----- form defaults -----*/
-input, select, textarea { 
+input, select, textarea {
         font-family: 'Raleway', sans-serif;
         font-size:1em;
         vertical-align:middle;
@@ -94,10 +99,10 @@ input, select, textarea {
 }
 
 /*----- other -----*/
-figure { 
-  
+figure {
+
         margin-bottom:5px;
-	
+
 }
 
 img {padding:0px;}
@@ -107,22 +112,22 @@ legend {
   padding-left:6px;
   float:right; }
 
-.img-indent { 
-        margin:0 20px 0 0; 
+.img-indent {
+        margin:0 20px 0 0;
         float:left;
 }
-.img-box { 
-        width:100%; 
-        overflow:hidden; 
+.img-box {
+        width:100%;
+        overflow:hidden;
         padding-bottom:15px;
 }
-        .img-box figure { 
-                float:left; 
+        .img-box figure {
+                float:left;
                 margin:0 20px 0 0;
                 padding:0;
         }
 
-.extra-wrap { 
+.extra-wrap {
         overflow:hidden;
 }
 
@@ -134,18 +139,18 @@ p {margin-bottom:18px;}
 pmain{
        margin-bottom:18px;
        font-size:120%;
-       
+
 }
 
 /*----- txt, links, lines, titles -----*/
 a {
-        color:#5D8BAA; 
+        color:#5D8BAA;
         outline:none;
 	text-decoration:none;
 }
 a:hover{
         text-decoration:none;
-	color:#8a8a8a; 
+	color:#8a8a8a;
 }
 
 h1 {
@@ -173,7 +178,7 @@ h2.pointer a{
         margin-bottom:22px;
 }
 h2.pointer a:hover{
-		color:#8a8a8a; 
+		color:#8a8a8a;
 }
 h2 {
 		font-family: 'Raleway', sans-serif;
@@ -199,14 +204,14 @@ h3 {
 	    color:#E1E2E2;
 }
         h3 a {
-	        text-decoration:none; 
+	        text-decoration:none;
 	        color:#FFFFFF; }
         h3 a:hover {
                 color:#8a8a8a;
         }
-        
+
 #loopedSlider a {
-        color:#ff0000; 
+        color:#ff0000;
         outline:none;
 	text-decoration:none;
 }
@@ -260,7 +265,7 @@ header nav {
                 }
                         header nav ul li a {
 								font-family:'Raleway', sans-serif;
-								font-weight: 300;						
+								font-weight: 300;
                                 font-size:22px;
                                 color:#fff;
                                 height:67px;
@@ -279,7 +284,7 @@ header nav {
                 header nav ul li a.current, header nav ul li a:hover {
                         padding-bottom:5px;
                 }
-                
+
                 header nav ul li:nth-of-type(2) a {
                         background:#102634;
                         background-image: -moz-linear-gradient(top, #102634, #132D3E); /* FF3.6 */
@@ -321,7 +326,7 @@ header nav {
 
 
 /*===== gallery =====*/
-.roundabout-holder  { 
+.roundabout-holder  {
         width:850px;
         height:496px;
         margin:0 auto;
@@ -346,7 +351,7 @@ header nav {
 
 /*===== content =====*/
 .content {
-        
+
 }
         .content img, aside img {
                 border:1px solid #3B3B3B;
@@ -358,7 +363,7 @@ header nav {
         .content img:hover {
                 border-color:#bbb;
         }
-        
+
 
 /*--- news list styles ---*/
         .news li {
@@ -369,10 +374,10 @@ header nav {
         .news li:last-child {
                 padding-bottom:0;
         }
-        
+
                 .news li figure {
 						font-family: 'Raleway', sans-serif;
-						font-weight: 300;				
+						font-weight: 300;
                         width:65px;
                         height:65px;
                         background:url(../images/date-none.gif) no-repeat 0 0;
@@ -396,7 +401,7 @@ header nav {
                                 line-height:0.1em;
 								color:#f9f9f9;
 								float:right;
-								margin-right:3px;								
+								margin-right:3px;
                         }
 
 .team-list li {
@@ -416,7 +421,7 @@ header nav {
 
 /*--- loopedSlider styles ---*/
 /*
- * Required 
+ * Required
 */
 #loopedSlider .wrap { width:295px; height:295px; overflow:hidden; position:relative;}
 #loopedSlider .slides { position:absolute; top:0; left:0; }
@@ -462,19 +467,19 @@ footer a{color:#A3B6B6;}
 footer a:hover{color:#ffffff;}
 
 /*----- forms -----*/
-#contacts-form { 
+#contacts-form {
         clear:right;
         width:100%;
         overflow:hidden;
 }
-        #contacts-form fieldset { 
+        #contacts-form fieldset {
                 border:none;
                 float:left;
         }
-                #contacts-form .field { 
+                #contacts-form .field {
                         clear:both;
                 }
-                        #contacts-form label { 
+                        #contacts-form label {
                                 float:left;
                                 width:110px;
                                 line-height:18px;
@@ -492,7 +497,7 @@ footer a:hover{color:#ffffff;}
                         #contacts-form input:invalid {
                                 border-color:red;
                         }
-                        #contacts-form textarea { 
+                        #contacts-form textarea {
                                 width:450px;
                                 height:215px;
                                 padding:1px 0 1px 3px;
@@ -530,10 +535,10 @@ footer a:hover{color:#ffffff;}
 #imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
 
 #imageData{	padding:0 10px; color: #666; }
-#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }
 #imageData #caption{ font-weight: bold;	}
-#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
-#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}
 
 #overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
 a.hidden{ display:none;}
@@ -564,7 +569,7 @@ background-color: #040404;
 }
 .the_menu li a {
 font-family:'Raleway', sans-serif;
-font-weight: 200; 
+font-weight: 200;
 color:#5D9BAA;
 text-decoration:none;
 padding:0px 10px 0px 5px;
@@ -575,7 +580,7 @@ font-size:100%;
 padding:0px 10px 0px 5px;
 color: #8a8a8a;
 }
-.formleftside{ 
+.formleftside{
 position:relative;
 left:10px;
 bottom:5px;
@@ -611,7 +616,7 @@ bottom:5px;
   width: 100%;
   border: 0;
   }
-  
+
   .centered-btns_nav {
   z-index: 10;
   position: absolute;
