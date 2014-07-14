@@ -5,6 +5,10 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
 
 <div class="main-box"><div class="container">
 
+<!--
+        deleted:    images/screenshots/juced-drumsynth.png
+        deleted:    images/screenshots/juced-drumsynth_thumb.png
+-->
   <!-- Arctican Plugins -->
   <div class="inside"><div class="wrapper">
     <aside>
