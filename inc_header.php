@@ -1,19 +1,24 @@
 <?php
 
+function changeColor()
+{
+    if ($GLOBALS["THEME"] == "white")
+        $GLOBALS["THEME"] = "black";
+    else
+        $GLOBALS["THEME"] = "white";
+
+    setcookie("color-theme", $GLOBALS["THEME"], time() + (365 * 24 * 60 * 60)); // expires in 1 year
+}
+
+if (file_exists("/home/falk2/"))
+    $ROOT = "/distrho";
+else
+    $ROOT = "";
+
 if (isset($_COOKIE["color-theme"]))
     $GLOBALS["THEME"] = htmlspecialchars($_COOKIE["color-theme"]);
 else
     $GLOBALS["THEME"] = "white";
-
-function changeColor()
-{
-    if ($GLOBALS["THEME"] == "white")
-       $GLOBALS["THEME"] = "black";
-    else
-       $GLOBALS["THEME"] = "white";
-
-    setcookie("color-theme", $GLOBALS["THEME"], time() + (365 * 24 * 60 * 60)); // expires in 1 year
-}
 
 if (isset($_POST['changeColorNow']))
     changeColor();
