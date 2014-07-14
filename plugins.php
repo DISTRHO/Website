@@ -24,40 +24,39 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
             <li>3-Band Splitter</i>
             <li>Ping Pong Pan</i>
           </ul>
-        <p>
-        <p><div class="button">
+        </p>
+        <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_miniseries" />
           <ul class="the_menu the_menu_miniseries">
             <li><a href="#" target="_blank">DISTRHO Mini-Series - Linux</a></li>
             <li><a href="#" target="_blank">DISTRHO Mini-Series - MacOS</a></li>
             <li><a href="#" target="_blank">DISTRHO Mini-Series - Windows</a></li>
           </ul>
-        </p></div>
+        </div>
       </article>
     </section>
   </div></div>
 
-  <!-- Nekobi -->
+  <!-- ProM -->
   <div class="inside"><div class="wrapper">
     <aside>
       <p style="font-size:0.8em; text-align:right">
-        <a href="images/screenshots/distrho-nekobi.png" rel="lightbox[nekobi]"><img src="images/screenshots/distrho-nekobi_thumb.png" alt=""/></a><br/>Nekobi&nbsp;&nbsp;
+        <a href="images/screenshots/distrho-prom.png" rel="lightbox[prom]"><img src="images/screenshots/distrho-prom_thumb.png" alt=""/></a><br/>ProM&nbsp;&nbsp;
       </p>
     </aside>
     <section class="content">
       <article>
-        <h2>DISTRHO Nekobi</h2>
-        <p>TODO.</p>
-        <p>Another TODO line.</p>
-        <p>
-        <p><div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_nekobi" />
+        <h2>DISTRHO ProM</h2>
+        <p><a href="http://projectm.sourceforge.net/" target="_blank">projectM</a> is an awesome music visualizer.</p>
+        <p>DISTRHO ProM makes it work as an audio plugin (LV2 and VST).</p>
+        <div class="button">
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_prom" />
           <ul class="the_menu the_menu_nekobi">
-            <li><a href="#" target="_blank">DISTRHO Nekobi - Linux</a></li>
-            <li><a href="#" target="_blank">DISTRHO Nekobi - MacOS</a></li>
-            <li><a href="#" target="_blank">DISTRHO Nekobi - Windows</a></li>
+            <li><a href="#" target="_blank">DISTRHO ProM - Linux</a></li>
+            <!--<li><a href="#" target="_blank">DISTRHO ProM - MacOS</a></li>-->
+            <!--<li><a href="#" target="_blank">DISTRHO ProM - Windows</a></li>-->
           </ul>
-        </p></div>
+        </div>
       </article>
     </section>
   </div></div>

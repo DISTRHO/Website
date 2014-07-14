@@ -58,13 +58,13 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         DISTRHO is an open-source project for <b>Cross-Platform Audio Plugins</b>.<br/>
       </p>
       <p>
-        We provide our own <b><a href="/plugins">plugins</a></b> and <b><a href="/ports">Linux ports</a></b>, everything being <b>open-source</b>.<br/>
+        We provide our own <b><a href="<?php echo $ROOT; ?>/plugins">plugins</a></b> and <b><a href="<?php echo $ROOT; ?>/ports">Linux ports</a></b>, everything being <b>open-source</b>.<br/>
         LADSPA, DSSI, LV2 and VST versions are available for our own plugins, while the Linux ports have LV2 and VST.
       </p>
       <p>
         The last release is '2012-05-18'.<br/>
         You can find the <b>source code <a href="http://sourceforge.net/projects/distrho/files/" target="_blank">here</a></b>, together with pre-compiled binaries.<br/>
-        Please check the <b><a href="/plugins">plugins</a></b> and <b><a href="/ports">[Linux] ports</a></b> sections to know more about those.
+        Please check the <b><a href="<?php echo $ROOT; ?>/plugins">plugins</a></b> and <b><a href="<?php echo $ROOT; ?>/ports">[Linux] ports</a></b> sections to know more about those.
       </p>
     </article>
   </section>
