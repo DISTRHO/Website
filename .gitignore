@@ -1,1 +1,3 @@
-backup/
+binaries/*.xz
+binaries/debs/
+binaries/tmp/

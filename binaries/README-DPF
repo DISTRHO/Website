@@ -1,0 +1,19 @@
+########################################
+## Generic README for DPF-based Plugins
+
+This folder contains audio plugins downloaded from http://distrho.sourceforge.net/
+
+The included *.lv2 folder is an LV2 bundle, copy it to ~/.lv2/ or /usr/lib/lv2/ so that LV2 capable hosts can see it.
+~/.lv2/ is a hidden folder within your home, if it does not exist you can create it.
+/usr/lib/lv2/ is a system folder and as such requires root permissions in order to copy files there.
+
+The included *.so files are LADSPA, DSSI or VST plugins depending on their suffix (*-ladspa.so for LADSPA, etc)
+Copy the plugins files to ~/.ladspa/, ~/.dssi/ or ~/.vst/ respectively.
+You can also copy them to /usr/lib/ladspa/, /usr/lib/dssi/ or /usr/lib/vst/ if you have root permissions.
+
+Note: For DSSI you need to copy the *-dssi folder to the same directory as the plugin *-dssi.so file.
+
+
+If your host is not listing these plugins, make sure the binaries you downloaded match your host architecture.
+32bit plugins go into 32bit hosts, same for 64bit.
+Some hosts are able to load plugins with different architecture, but that's the exception rather than the rule.

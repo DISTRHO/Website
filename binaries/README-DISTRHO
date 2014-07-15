@@ -1,0 +1,16 @@
+##########################################
+## Generic README for DISTRHO Linux Ports
+
+This folder contains audio plugins downloaded from http://distrho.sourceforge.net/ports
+
+The included *.lv2 folder is an LV2 bundle, copy it to ~/.lv2/ or /usr/lib/lv2/ so that LV2 capable hosts can see it.
+~/.lv2/ is a hidden folder within your home, if it does not exist you can create it.
+/usr/lib/lv2/ is a system folder and as such requires root permissions in order to copy files there.
+
+The included *.so file is a VST plugin, copy it to ~/.vst/ or /usr/lib/vst/ so that VST capable hosts can see it.
+As with LV2, ~/.vst/ is a hidden folder, create it if needed.
+
+
+If your host is not listing these plugins, make sure the binaries you downloaded match your host architecture.
+32bit plugins go into 32bit hosts, same for 64bit.
+Some hosts are able to load plugins with different architecture, but that's the exception rather than the rule.
