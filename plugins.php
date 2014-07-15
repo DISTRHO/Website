@@ -24,7 +24,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
           - Ping Pong Pan<br/>
         </p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_miniseries" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_miniseries" alt="download" />
           <ul class="the_menu the_menu_miniseries">
             <li><a href="#" target="_blank">DISTRHO Mini-Series - Linux</a></li>
             <li><a href="#" target="_blank">DISTRHO Mini-Series - MacOS</a></li>
@@ -48,7 +48,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <p><a href="http://projectm.sourceforge.net/" target="_blank">projectM</a> is an awesome music visualizer.</p>
         <p>DISTRHO ProM makes it work as an audio plugin (LV2 and VST).</p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_prom" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_prom" alt="download" />
           <ul class="the_menu the_menu_prom">
             <li><a href="#" target="_blank">DISTRHO ProM - Linux</a></li>
             <!--<li><a href="#" target="_blank">DISTRHO ProM - MacOS</a></li>-->

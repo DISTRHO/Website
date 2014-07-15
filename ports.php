@@ -5,10 +5,6 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
 
 <div class="main-box"><div class="container">
 
-<!--
-        deleted:    images/screenshots/juced-drumsynth.png
-        deleted:    images/screenshots/juced-drumsynth_thumb.png
--->
   <!-- Arctican Plugins -->
   <div class="inside"><div class="wrapper">
     <aside>
@@ -24,7 +20,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
            In the pack you will find 2 Arctican plugins: "The Function" and "The Pilgrim".</p>
         <p>Official website: <a href="http://arcticanaudio.com" target="_blank">http://arcticanaudio.com</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_arctican" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_arctican" alt="download" />
           <ul class="the_menu the_menu_arctican">
             <li><a href="#" target="_blank">Arctican Plugins - Linux 32bit</a></li>
             <li><a href="#" target="_blank">Arctican Plugins - Linux 64bit</a></li>
@@ -48,7 +44,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         The goal of this synth is to be a tool/companion for the original DX7.</p>
         <p>Official project page: <a href="https://github.com/asb2m10/dexed" target="_blank">https://github.com/asb2m10/dexed</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_dexed" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_dexed" alt="download" />
           <ul class="the_menu the_menu_dexed">
             <li><a href="#" target="_blank">Dexed - Linux 32bit</a></li>
             <li><a href="#" target="_blank">Dexed - Linux 64bit</a></li>
@@ -75,7 +71,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <p>Professional grade audio plugin suite from dRowAudio, now available for Linux.<p>
         <p>Official website: <a href="http://www.drowaudio.co.uk" target="_blank">http://www.drowaudio.co.uk</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_drowaudio" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_drowaudio" alt="download" />
           <ul class="the_menu the_menu_drowaudio">
             <li><a href="#" target="_blank">dRowAudio Plugins - Linux 32bit</a></li>
             <li><a href="#" target="_blank">dRowAudio Plugins - Linux 64bit</a></li>
@@ -101,7 +97,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
            (Capsaicin and SoundCrab are broken and will not be ported).</p>
         <p>Official website: <a href="http://www.anticore.org/jucetice/?page_id=7" target="_blank">http://www.anticore.org/jucetice/?page_id=7</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_juced" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_juced" alt="download" />
           <ul class="the_menu the_menu_juced">
             <li><a href="#" target="_blank">Juced Plugins - Linux 32bit</a></li>
             <li><a href="#" target="_blank">Juced Plugins - Linux 64bit</a></li>
@@ -133,7 +129,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         </p>
         <p>Official project page: <a href="https://github.com/HiFi-LoFi/KlangFalter" target="_blank">https://github.com/HiFi-LoFi/KlangFalter</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_klangfalter" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_klangfalter" alt="download" />
           <ul class="the_menu the_menu_klangfalter">
             <li><a href="#" target="_blank">KlangFalter - Linux 32bit</a></li>
             <li><a href="#" target="_blank">KlangFalter - Linux 64bit</a></li>
@@ -158,7 +154,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
            provide the open source community with a high quality reverb.</p>
         <p>Port project page: <a href="https://github.com/DISTRHO/MVerb" target="_blank">https://github.com/DISTRHO/MVerb</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_mverb" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_mverb" alt="download" />
           <ul class="the_menu the_menu_mverb">
             <li><a href="#" target="_blank">MVerb - Linux 32bit</a></li>
             <li><a href="#" target="_blank">MVerb - Linux 64bit</a></li>
@@ -181,7 +177,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <p>Nekobi is a simple single-oscillator synth based on the Roland TB-303.</p>
         <p>Port project page: <a href="https://github.com/DISTRHO/Nekobi" target="_blank">https://github.com/DISTRHO/Nekobi</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_nekobi" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_nekobi" alt="download" />
           <ul class="the_menu the_menu_nekobi">
             <li><a href="#" target="_blank">Nekobi - Linux 32bit</a></li>
             <li><a href="#" target="_blank">Nekobi - Linux 64bit</a></li>
@@ -205,7 +201,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         While not copying originals, some of the features were taken to a better point.<p>
         <p>Official project page: <a href="https://github.com/2DaT/Obxd" target="_blank">https://github.com/2DaT/Obxd</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_obxd" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_obxd" alt="download" />
           <ul class="the_menu the_menu_obxd">
             <li><a href="#" target="_blank">Obxd - Linux 32bit</a></li>
             <li><a href="#" target="_blank">Obxd - Linux 64bit</a></li>
@@ -228,7 +224,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <p>PitchedDelay is a delay that allows the pitching the delayed signal, within or outside the feedback loop.</p>
         <p>Official project page: <a href="https://code.google.com/p/lkjb-dc12/" target="_blank">https://code.google.com/p/lkjb-dc12/</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_pitcheddelay" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_pitcheddelay" alt="download" />
           <ul class="the_menu the_menu_pitcheddelay">
             <li><a href="#" target="_blank">Pitched Delay - Linux 32bit</a></li>
             <li><a href="#" target="_blank">Pitched Delay - Linux 64bit</a></li>
@@ -260,7 +256,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
            A Special thanks goes to Patrick Kunz for making these awesome plugins!</p>
         <p>Official website: <a href="http://kunz.corrupt.ch" target="_blank">http://kunz.corrupt.ch</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_tal" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_tal" alt="download" />
           <ul class="the_menu the_menu_tal">
             <li><a href="http://sourceforge.net/projects/distrho/files/Ports/TAL-Plugins/tal-plugins_linux32_20120518.7z/download" target="_blank">TAL Plugins - Linux 32bit</a></li>
             <li><a href="http://sourceforge.net/projects/distrho/files/Ports/TAL-Plugins/tal-plugins_linux64_20120518.7z/download" target="_blank">TAL Plugins - Linux 64bit</a></li>
@@ -282,7 +278,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <h2>Vex</h2>
         <p>Vex is a 3 oscillator subtractive waverom synth</p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_vex" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_vex" alt="download" />
           <ul class="the_menu the_menu_vex">
             <li><a href="#" target="_blank">Vex - Linux 32bit</a></li>
             <li><a href="#" target="_blank">Vex - Linux 64bit</a></li>
@@ -305,7 +301,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <p>Wolpertinger is a subtractive, antialiased polyphonic software synthesizer, now working as a LV2 plugin.</p>
         <p>Official website: <a href="http://tumbetoene.tuxfamily.org" target="_blank">http://tumbetoene.tuxfamily.org</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_wolpertinger" />
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_wolpertinger" alt="download" />
           <ul class="the_menu the_menu_wolpertinger">
             <li><a href="#" target="_blank">Wolpertinger - Linux 32bit</a></li>
             <li><a href="#" target="_blank">Wolpertinger - Linux 64bit</a></li>
