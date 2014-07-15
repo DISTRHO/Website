@@ -44,8 +44,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     <section class="content">
       <article>
         <h2>Dexed</h2>
-        <p>Dexed is a plugin synth that is closely modeled on the Yamaha DX7.</p>
-        <p>The goal of this synth is to be a tool/companion for the original DX7.</p>
+        <p>Dexed is a plugin synth that is closely modeled on the Yamaha DX7.<br/>
+        The goal of this synth is to be a tool/companion for the original DX7.</p>
         <p>Official project page: <a href="https://github.com/asb2m10/dexed" target="_blank">https://github.com/asb2m10/dexed</a></p>
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_dexed" />
@@ -89,15 +89,15 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
   <div class="inside"><div class="wrapper">
     <aside>
       <p style="font-size:0.8em; text-align:right">
-        <a href="images/screenshots/drumsynth.png" rel="lightbox[juced]"><img src="images/screenshots/juced-drumsynth_thumb.png" alt=""/></a><br/>DrumSynth&nbsp;&nbsp;
-        <a href="images/screenshots/eqinox.png"    rel="lightbox[juced]" class="hidden"></a>
+        <a href="images/screenshots/juced-drumsynth.png" rel="lightbox[juced]"><img src="images/screenshots/juced-drumsynth_thumb.png" alt=""/></a><br/>DrumSynth&nbsp;&nbsp;
+        <a href="images/screenshots/juced-eqinox.png"    rel="lightbox[juced]" class="hidden"></a>
       </p>
     </aside>
     <section class="content">
       <article>
         <h2>Juced Plugins</h2>
         <p>Plugins originally in the <a href="http://www.anticore.org/jucetice/" target="_blank">Jucetice</a> project, then moved to <a href="http://code.google.com/p/juced/" target="_blank">Juced</a>.<br>
-           In DISTRHO we took DrumSynth and EQinox, making it work with new Juce code and in LV2 format.<br>
+           We took DrumSynth and EQinox and made them work better and in LV2 format.<br>
            (Capsaicin and SoundCrab are broken and will not be ported).</p>
         <p>Official website: <a href="http://www.anticore.org/jucetice/?page_id=7" target="_blank">http://www.anticore.org/jucetice/?page_id=7</a></p>
         <div class="button">
@@ -122,16 +122,15 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
       <article>
         <h2>KlangFalter</h2>
         <p>KlangFalter is a convolution audio plugin.</p>
-        <p>It features:</p>
-        <ul>
-            <li>Low/no latency convolution plugin</li>
-            <li>Easy user interface</li>
-            <li>Support for true stereo impulse responses</li>
-            <li>Simple high and low shelf EQ</li>
-            <li>Freely modifiable envelope for the impulse response</li>
-            <li>Basically no limit on impulse response length - as long as your computer can handle it...</li>
-            <li>Intuitive and flexible loading of impulse response files</li>
-        </ul>
+        <p>It features:<br/>
+        - Low/no latency convolution plugin<br/>
+        - Easy user interface<br/>
+        - Support for true stereo impulse responses<br/>
+        - Simple high and low shelf EQ<br/>
+        - Freely modifiable envelope for the impulse response<br/>
+        - No limit on impulse response length, as long as your computer can handle it...<br/>
+        - Intuitive and flexible loading of impulse response files<br/>
+        </p>
         <p>Official project page: <a href="https://github.com/HiFi-LoFi/KlangFalter" target="_blank">https://github.com/HiFi-LoFi/KlangFalter</a></p>
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_klangfalter" />
@@ -157,7 +156,6 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <p>MVerb is a studio quality, open-source reverb.</p>
         <p>Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and
            provide the open source community with a high quality reverb.</p>
-        <p>This is a port of <a href="https://github.com/martineastwood/mverb/" target="_blank">MVerb</a>, allowing a proper Linux version with UI.</p>
         <p>Port project page: <a href="https://github.com/DISTRHO/MVerb" target="_blank">https://github.com/DISTRHO/MVerb</a></p>
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_mverb" />
@@ -181,8 +179,6 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
       <article>
         <h2>Nekobi</h2>
         <p>Nekobi is a simple single-oscillator synth based on the Roland TB-303.</p>
-        <p>This is a port of <a href="https://github.com/gordonjcp/nekobee" target="_blank">nekobee</a>, allowing LV2 and VST builds of the plugin,<br/>
-           plus a nicer UI with a simple cat animation. ;)</p>
         <p>Port project page: <a href="https://github.com/DISTRHO/Nekobi" target="_blank">https://github.com/DISTRHO/Nekobi</a></p>
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_nekobi" />
@@ -205,8 +201,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     <section class="content">
       <article>
         <h2>Obxd</h2>
-        <p>Obxd is emulation of famous ob-x, ob-xa and ob8 synths.<p>
-        <p>While not copying originals, some of the features were taken to a better point.<p>
+        <p>Obxd is emulation of famous ob-x, ob-xa and ob8 synths.<br/>
+        While not copying originals, some of the features were taken to a better point.<p>
         <p>Official project page: <a href="https://github.com/2DaT/Obxd" target="_blank">https://github.com/2DaT/Obxd</a></p>
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_obxd" />
@@ -229,8 +225,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     <section class="content">
       <article>
         <h2>Pitched Delay</h2>
-        <p>PitchedDelay is a delay that allows the pitching the delayed signal.</p>
-        <p>This can be done within or outside the feedback loop.</p>
+        <p>PitchedDelay is a delay that allows the pitching the delayed signal, within or outside the feedback loop.</p>
         <p>Official project page: <a href="https://code.google.com/p/lkjb-dc12/" target="_blank">https://code.google.com/p/lkjb-dc12/</a></p>
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_pitcheddelay" />
@@ -260,8 +255,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     <section class="content">
       <article>
         <h2>TAL Plugins</h2>
-        <p>This is a plugin pack from TAL (Togu Audio Line), now available for Linux. Not all plugins were ported, only those that were made using Juce (the more recent ones).<br>
-           In this pack you will find TAL Dub 3, Filter 1 &amp; 2, NoiseMaker, Reverb 1, 2 &amp; 3 and Vocoder 2.<br>
+        <p>This is a plugin pack from TAL (Togu Audio Line), now available for Linux.<br/>
+           In this pack you will find TAL Dub-3, Filter, NoiseMaker, Reverb and Vocoder.<br>
            A Special thanks goes to Patrick Kunz for making these awesome plugins!</p>
         <p>Official website: <a href="http://kunz.corrupt.ch" target="_blank">http://kunz.corrupt.ch</a></p>
         <div class="button">

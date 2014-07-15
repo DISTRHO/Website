@@ -17,13 +17,11 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     <section class="content">
       <article>
         <h2>DISTRHO Mini Series</h2>
-        <p>A small collection of small but useful plugins, based on the good old <a href="http://loser.asseca.com/" target="_blank">LOSER-Dev Plugins</a>.</p>
-        <p>This collection currently includes:
-          <ul>
-            <li>3-Band EQ</i>
-            <li>3-Band Splitter</i>
-            <li>Ping Pong Pan</i>
-          </ul>
+        <p>A small collection of small but useful plugins, based on the good old <a href="http://loser.asseca.com/" target="_blank">LOSER-Dev Plugins</a> (now offline).</p>
+        <p>This collection currently includes:<br/>
+          - 3-Band EQ<br/>
+          - 3-Band Splitter<br/>
+          - Ping Pong Pan<br/>
         </p>
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_miniseries" />
@@ -51,7 +49,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <p>DISTRHO ProM makes it work as an audio plugin (LV2 and VST).</p>
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_prom" />
-          <ul class="the_menu the_menu_nekobi">
+          <ul class="the_menu the_menu_prom">
             <li><a href="#" target="_blank">DISTRHO ProM - Linux</a></li>
             <!--<li><a href="#" target="_blank">DISTRHO ProM - MacOS</a></li>-->
             <!--<li><a href="#" target="_blank">DISTRHO ProM - Windows</a></li>-->

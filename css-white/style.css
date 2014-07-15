@@ -1,13 +1,13 @@
 /* Getting the new tags to behave */
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
-mark, rp, rt, ruby, summary, time{ display: inline }
+mark, rp, rt, ruby, summary, time { display: inline; }
 
 /* Global properties ======================================================== */
 body {
         background:#F4F4F4;
         font-family: 'Raleway', sans-serif;
-		font-weight: 200;
-        font-size:120%;
+        font-weight: 200;
+        font-size:100%;
         line-height:1.125em;
         color: #272727/*#7A7A7A*/;
 }
@@ -51,18 +51,16 @@ html, body { height:100%;background-color:#1E1F1F;}
 				/*font-family: 'Cutive Mono', sans-serif;*/
 				z-index:100;
 				position:absolute;
-				color:#cfcdcd;
+				color:#cfcdcd; /* FIXME */
 				font-size:100%;
 				left:45px;
 				top:215px;
 		}
 		.text_download a{
-
-				color:#cfcdcd;
+				color:#cfcdcd; /* FIXME */
 		}
 		.text_download a:hover{
-				color:#9eb2c5;
-
+				color:#9eb2c5; /* FIXME */
 		}
 		.linuxLogo{
 				background:url(../images/logo_linux.png) 100% 0 no-repeat;
@@ -70,24 +68,12 @@ html, body { height:100%;background-color:#1E1F1F;}
 		.windowsLogo{
 				background:url(../images/windowsLogo.png) 50% 0 no-repeat;
 		}
+
         /* Content */
         .content {
                 float: left;
                 width: 572px;
         }
-        .content_463 {
-                float: left;
-                width: 443px;
-				padding-right:20px;
-        }
-		.content_463 img {
-                margin-bottom:15px;
-        }
-
-		.padlef50{
-
-		padding: 0 0 0 20px;
-		}
 
         /* Sidebar */
         aside{

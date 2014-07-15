@@ -42,6 +42,32 @@ html, body { height:100%;background-color:#1E1F1F; }
                 overflow:hidden;
                 background:url(../images/gallerry-bg_black.jpg) 0 0 repeat-x;
         }
+		.individual_plugin_container{
+				position:absolute;
+				left:0;
+				top:60px;
+		}
+		.text_download{
+				/*font-family: 'Cutive Mono', sans-serif;*/
+				z-index:100;
+				position:absolute;
+				color:#cfcdcd;
+				font-size:100%;
+				left:45px;
+				top:215px;
+		}
+		.text_download a{
+				color:#cfcdcd;
+		}
+		.text_download a:hover{
+				color:#9eb2c5;
+		}
+		.linuxLogo{
+				background:url(../images/logo_linux.png) 100% 0 no-repeat;
+		}
+		.windowsLogo{
+				background:url(../images/windowsLogo.png) 50% 0 no-repeat;
+		}
 
         /* Content */
         .content {
@@ -86,7 +112,7 @@ html, body { height:100%;background-color:#1E1F1F; }
 }
 
 /* The inside class provides consistent padding. To be used often! */
-.inside{ padding: 32px 37px 50px 37px; }
+.inside{ padding: 20px 37px 30px 37px; }
 
 .imagebox{ padding:50px 0px 0px 0px;}
 
@@ -161,7 +187,7 @@ h1 {
 /*        background:url(../images/logo.png) no-repeat 0 0;*/
         padding:6px 0 8px 0px;
         position:absolute;
-        left:39px;
+        left:0px;
         top:6px;
 
 }
@@ -219,9 +245,6 @@ h3 {
         color:#212222;
         text-decoration:none;
 }
-
-
-
 
 /*==================boxes====================*/
 .main-box {
