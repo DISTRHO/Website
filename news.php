@@ -8,8 +8,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
   <ul class="news">
 
     <li>
-      <figure><strong>00 July</strong><p>2014</p></figure>
-      <h2 class="pointer">New release pack (2014-07-TODO)</h2>
+      <figure><strong>16 July</strong><p>2014</p></figure>
+      <h2 class="pointer">New release pack (2014-07-16)</h2>
       <p>In this release we cleaned up all the plugins, added new ones and removed those that we not considered good enough.<br/>
       Standalones are no longer available. Highlife was removed as a requested by its authors.</p>
       <p>The plugins we added to Ports are:<br/>
@@ -21,7 +21,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         - PitchedDelay<br/>
       </p>
       <p>Additionally we made a new plugin - ProM - a music visualizer as audio plugin based on projectm.</p>
-      <p><a href="http://www.kvraudio.com/forum/" target="_blank">Comments and discussion</a>
+      <p><a href="http://www.kvraudio.com/forum/viewtopic.php?t=416058" target="_blank">Comments and discussion</a>
     </li>
 
     <li>

@@ -26,9 +26,10 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_miniseries" alt="download" />
           <ul class="the_menu the_menu_miniseries">
-            <li><a href="#" target="_blank">DISTRHO Mini-Series - Linux</a></li>
-            <li><a href="#" target="_blank">DISTRHO Mini-Series - MacOS</a></li>
-            <li><a href="#" target="_blank">DISTRHO Mini-Series - Windows</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/distrho-mini-series-linux32bit.tar.xz/download" target="_blank">DISTRHO Mini-Series - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/distrho-mini-series-linux64bit.tar.xz/download" target="_blank">DISTRHO Mini-Series - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/distrho-mini-series-win32bit.zip/download" target="_blank">DISTRHO Mini-Series - Windows 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/distrho-mini-series-win64bit.zip/download" target="_blank">DISTRHO Mini-Series - Windows 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -50,9 +51,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_prom" alt="download" />
           <ul class="the_menu the_menu_prom">
-            <li><a href="#" target="_blank">DISTRHO ProM - Linux</a></li>
-            <!--<li><a href="#" target="_blank">DISTRHO ProM - MacOS</a></li>-->
-            <!--<li><a href="#" target="_blank">DISTRHO ProM - Windows</a></li>-->
+            <li>Coming soon!</li>
           </ul>
         </div>
       </article>

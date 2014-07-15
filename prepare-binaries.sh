@@ -5,7 +5,7 @@ set -e
 mkdir -p binaries
 mkdir -p binaries/debs
 
-# rm -f binaries/*.xz
+rm -f binaries/*.xz
 
 # --------------------------------------------------------------------------------------------------------------------------------
 # set vars

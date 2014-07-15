@@ -99,5 +99,4 @@ if (isset($_POST["changeColorNow"]))
       </ul>
     </nav>
   </div>
-  <p style="color:red; font-size:1.2em;"> &nbsp;THIS PAGE IS UNDER CONSTRUCTION</p>
 </header>
