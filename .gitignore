@@ -1,3 +1,4 @@
 binaries/*.xz
+binaries/*.zip
 binaries/debs/
 binaries/tmp/
