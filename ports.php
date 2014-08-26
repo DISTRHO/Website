@@ -22,8 +22,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_arctican" alt="download" />
           <ul class="the_menu the_menu_arctican">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/arctican-plugins-linux32bit.tar.xz/download" target="_blank">Arctican Plugins - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/arctican-plugins-linux64bit.tar.xz/download" target="_blank">Arctican Plugins - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/arctican-plugins-linux32bit.tar.xz/download" target="_blank">Arctican Plugins - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/arctican-plugins-linux64bit.tar.xz/download" target="_blank">Arctican Plugins - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -46,8 +46,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_dexed" alt="download" />
           <ul class="the_menu the_menu_dexed">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/dexed-linux32bit.tar.xz/download" target="_blank">Dexed - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/dexed-linux64bit.tar.xz/download" target="_blank">Dexed - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/dexed-linux32bit.tar.xz/download" target="_blank">Dexed - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/dexed-linux64bit.tar.xz/download" target="_blank">Dexed - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -73,8 +73,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_drowaudio" alt="download" />
           <ul class="the_menu the_menu_drowaudio">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/drowaudio-plugins-linux32bit.tar.xz/download" target="_blank">dRowAudio Plugins - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/drowaudio-plugins-linux64bit.tar.xz/download" target="_blank">dRowAudio Plugins - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/drowaudio-plugins-linux32bit.tar.xz/download" target="_blank">dRowAudio Plugins - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/drowaudio-plugins-linux64bit.tar.xz/download" target="_blank">dRowAudio Plugins - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -99,8 +99,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_juced" alt="download" />
           <ul class="the_menu the_menu_juced">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/juced-plugins-linux32bit.tar.xz/download" target="_blank">Juced Plugins - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/juced-plugins-linux64bit.tar.xz/download" target="_blank">Juced Plugins - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/juced-plugins-linux32bit.tar.xz/download" target="_blank">Juced Plugins - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/juced-plugins-linux64bit.tar.xz/download" target="_blank">Juced Plugins - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -131,8 +131,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_klangfalter" alt="download" />
           <ul class="the_menu the_menu_klangfalter">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/klangfalter-linux32bit.tar.xz/download" target="_blank">KlangFalter - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/klangfalter-linux64bit.tar.xz/download" target="_blank">KlangFalter - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/klangfalter-linux32bit.tar.xz/download" target="_blank">KlangFalter - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/klangfalter-linux64bit.tar.xz/download" target="_blank">KlangFalter - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -156,8 +156,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_mverb" alt="download" />
           <ul class="the_menu the_menu_mverb">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/distrho-mverb-linux32bit.tar.xz/download" target="_blank">MVerb - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/distrho-mverb-linux64bit.tar.xz/download" target="_blank">MVerb - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/distrho-mverb-linux32bit.tar.xz/download" target="_blank">MVerb - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/distrho-mverb-linux64bit.tar.xz/download" target="_blank">MVerb - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -179,8 +179,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_nekobi" alt="download" />
           <ul class="the_menu the_menu_nekobi">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/distrho-nekobi-linux32bit.tar.xz/download" target="_blank">Nekobi - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/distrho-nekobi-linux64bit.tar.xz/download" target="_blank">Nekobi - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/distrho-nekobi-linux32bit.tar.xz/download" target="_blank">Nekobi - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/distrho-nekobi-linux64bit.tar.xz/download" target="_blank">Nekobi - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -203,8 +203,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_obxd" alt="download" />
           <ul class="the_menu the_menu_obxd">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/obxd-linux32bit.tar.xz/download" target="_blank">Obxd - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/obxd-linux64bit.tar.xz/download" target="_blank">Obxd - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/obxd-linux32bit.tar.xz/download" target="_blank">Obxd - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/obxd-linux64bit.tar.xz/download" target="_blank">Obxd - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -226,8 +226,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_pitcheddelay" alt="download" />
           <ul class="the_menu the_menu_pitcheddelay">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/pitcheddelay-linux32bit.tar.xz/download" target="_blank">Pitched Delay - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/pitcheddelay-linux64bit.tar.xz/download" target="_blank">Pitched Delay - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/pitcheddelay-linux32bit.tar.xz/download" target="_blank">Pitched Delay - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/pitcheddelay-linux64bit.tar.xz/download" target="_blank">Pitched Delay - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -258,8 +258,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_tal" alt="download" />
           <ul class="the_menu the_menu_tal">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/tal-plugins-linux32bit.tar.xz/download" target="_blank">TAL Plugins - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/tal-plugins-linux64bit.tar.xz/download" target="_blank">TAL Plugins - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/tal-plugins-linux32bit.tar.xz/download" target="_blank">TAL Plugins - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/tal-plugins-linux64bit.tar.xz/download" target="_blank">TAL Plugins - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -280,8 +280,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_vex" alt="download" />
           <ul class="the_menu the_menu_vex">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/vex-linux32bit.tar.xz/download" target="_blank">Vex - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/vex-linux64bit.tar.xz/download" target="_blank">Vex - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/vex-linux32bit.tar.xz/download" target="_blank">Vex - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/vex-linux64bit.tar.xz/download" target="_blank">Vex - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -303,8 +303,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_wolpertinger" alt="download" />
           <ul class="the_menu the_menu_wolpertinger">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/wolpertinger-linux32bit.tar.xz/download" target="_blank">Wolpertinger - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-07-16/wolpertinger-linux64bit.tar.xz/download" target="_blank">Wolpertinger - Linux 64bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/wolpertinger-linux32bit.tar.xz/download" target="_blank">Wolpertinger - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/wolpertinger-linux64bit.tar.xz/download" target="_blank">Wolpertinger - Linux 64bit</a></li>
           </ul>
         </div>
       </article>

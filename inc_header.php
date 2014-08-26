@@ -14,7 +14,7 @@ function changeColor()
     exit();
 }
 
-if (file_exists("/home/falk2/"))
+if (file_exists("/Shared/Personal/FOSS/"))
     $ROOT = "/distrho";
 else
     $ROOT = "";
