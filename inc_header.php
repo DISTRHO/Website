@@ -54,7 +54,7 @@ if (isset($_POST["changeColorNow"]))
     if ($CURRENT_PAGE == "plugins")
         $menuClasses = array("miniseries", "prom");
     else if ($CURRENT_PAGE == "ports")
-        $menuClasses = array("arctican", "dexed", "drowaudio", "juced", "klangfalter", "mverb", "nekobi", "obxd", "pitcheddelay", "tal", "vex", "wolpertinger");
+        $menuClasses = array("arctican", "dexed", "drowaudio", "easyssp", "juced", "klangfalter", "lufsmeter", "luftikus", "mverb", "nekobi", "obxd", "pitcheddelay", "tal", "stereosourceseparator", "vex", "wolpertinger");
     else
         $menuClasses = array();
 ?>

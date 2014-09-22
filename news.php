@@ -8,6 +8,25 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
   <ul class="news">
 
     <li>
+      <figure><strong>26 Aug</strong><p>2014</p></figure>
+      <h2 class="pointer">New plugins and minor fixing</h2>
+      <p>In this release we bring 4 new Linux plugin ports:<br/>
+        - EasySSP<br/>
+        - LUFS Meter<br/>
+        - Luftikus<br/>
+        - Stereo Source Separator<br/>
+      </p>
+      <p>The DPF-based plugins also had some minor fixes:<br/>
+        - 3BandEQ/Splitter had its sliders inverted, now fixed<br/>
+        - ProM now has pre-compiled linux binaries; UI can be resized by using - and + keys<br/>
+        - MVerb knobs order has been fixed<br/>
+        - Allow to open UI in LV2 hosts that don't support options feature (Ingen)<br/>
+        - Workaround for some VST hosts that don't set sample rate during init (Ardour3 and energyXT)<br/>
+      </p>
+      <p><a href="http://www.kvraudio.com/forum/viewtopic.php?t=419123" target="_blank">Comments and discussion</a>
+    </li>
+
+    <li>
       <figure><strong>16 July</strong><p>2014</p></figure>
       <h2 class="pointer">New release pack (2014-07-16)</h2>
       <p>In this release we cleaned up all the plugins, added new ones and removed those that we not considered good enough.<br/>

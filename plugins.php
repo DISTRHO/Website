@@ -51,7 +51,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_prom" alt="download" />
           <ul class="the_menu the_menu_prom">
-            <li>Coming soon!</li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/distrho-prom-linux32bit.tar.xz/download" target="_blank">DISTRHO Mini-Series - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/distrho-prom-linux64bit.tar.xz/download" target="_blank">DISTRHO Mini-Series - Linux 64bit</a></li>
           </ul>
         </div>
       </article>

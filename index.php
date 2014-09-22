@@ -26,6 +26,11 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     <!-- .news -->
     <ul class="news">
       <li>
+        <figure><strong>26 Aug</strong><p>2014<p></figure>
+        <h3>New plugins and minor fixing</h3>
+        <p>4 new Linux ports and minor fixes.</p>
+      </li>
+      <li>
         <figure><strong>16 July</strong><p>2014<p></figure>
         <h3>New release pack</h3>
         <p>Lots of new plugins and fixes!</p>
@@ -39,11 +44,6 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <figure><strong>07 Oct</strong><p>2011<p></figure>
         <h3>New and updated ports</h3>
         <p>We updated the Linux ports, and added a few more too.</p>
-      </li>
-      <li>
-        <figure><strong>13 Sept</strong><p>2011<p></figure>
-        <h3>Standalone versions</h3>
-        <p>Standalone versions of the Arctican and TAL Plugins.</p>
       </li>
     </ul>
     <!-- /.news -->

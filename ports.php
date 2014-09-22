@@ -81,6 +81,29 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     </section>
   </div></div>
 
+  <!-- EasySSP -->
+  <div class="inside"><div class="wrapper">
+    <aside>
+      <p style="font-size:0.8em; text-align:right">
+        <a href="images/screenshots/easyssp.png" rel="lightbox[easyssp]"><img src="images/screenshots/easyssp_thumb.png" alt=""/></a><br/>EasySSP&nbsp;&nbsp;
+      </p>
+    </aside>
+    <section class="content">
+      <article>
+        <h2>EasySSP</h2>
+        <p>Easy Sound Space Perception is a small and lightweight audio visualization tool, which currently provides spectrometer and goniometer views.</p>
+        <p>Official website: <a href="http://au.tomatl.org/essp" target="_blank">http://au.tomatl.org/essp</a></p>
+        <div class="button">
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_easyssp" alt="download" />
+          <ul class="the_menu the_menu_easyssp">
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/easyssp-linux32bit.tar.xz/download" target="_blank">EasySSP - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/easyssp-linux64bit.tar.xz/download" target="_blank">EasySSP - Linux 64bit</a></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </div></div>
+
   <!-- Juced Plugins -->
   <div class="inside"><div class="wrapper">
     <aside>
@@ -133,6 +156,52 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
           <ul class="the_menu the_menu_klangfalter">
             <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/klangfalter-linux32bit.tar.xz/download" target="_blank">KlangFalter - Linux 32bit</a></li>
             <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/klangfalter-linux64bit.tar.xz/download" target="_blank">KlangFalter - Linux 64bit</a></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </div></div>
+
+  <!-- LUFS Meter -->
+  <div class="inside"><div class="wrapper">
+    <aside>
+      <p style="font-size:0.8em; text-align:right">
+        <a href="images/screenshots/lufsmeter.png" rel="lightbox[lufsmeter]"><img src="images/screenshots/lufsmeter_thumb.png" alt=""/></a><br/>LUFS Meter&nbsp;&nbsp;
+      </p>
+    </aside>
+    <section class="content">
+      <article>
+        <h2>LUFS Meter</h2>
+        <p>The LUFS Meter plugin measures loudness similar to the human perception of loudness.</p>
+        <p>Official website: <a href="http://www.klangfreund.com/lufsmeter/" target="_blank">http://www.klangfreund.com/lufsmeter/</a></p>
+        <div class="button">
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_lufsmeter" alt="download" />
+          <ul class="the_menu the_menu_lufsmeter">
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/lufsmeter-linux32bit.tar.xz/download" target="_blank">LUFS Meter - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/lufsmeter-linux64bit.tar.xz/download" target="_blank">LUFS Meter - Linux 64bit</a></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </div></div>
+
+  <!-- Luftikus -->
+  <div class="inside"><div class="wrapper">
+    <aside>
+      <p style="font-size:0.8em; text-align:right">
+        <a href="images/screenshots/luftikus.png" rel="lightbox[luftikus]"><img src="images/screenshots/luftikus_thumb.png" alt=""/></a><br/>Luftikus&nbsp;&nbsp;
+      </p>
+    </aside>
+    <section class="content">
+      <article>
+        <h2>Luftikus</h2>
+        <p>Luftikus is a digital adaptation of an analog EQ with fixed half-octave bands and additional high frequency boost.</br>
+           As an improvement to the hardware it allows deeper cuts and supports a keep-gain mode where overall gain changes are avoided.</p>
+        <div class="button">
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_luftikus" alt="download" />
+          <ul class="the_menu the_menu_luftikus">
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/luftikus-linux32bit.tar.xz/download" target="_blank">Luftikus - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/luftikus-linux64bit.tar.xz/download" target="_blank">Luftikus - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
@@ -228,6 +297,29 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
           <ul class="the_menu the_menu_pitcheddelay">
             <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/pitcheddelay-linux32bit.tar.xz/download" target="_blank">Pitched Delay - Linux 32bit</a></li>
             <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/pitcheddelay-linux64bit.tar.xz/download" target="_blank">Pitched Delay - Linux 64bit</a></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </div></div>
+
+  <!-- Stereo Source Separator -->
+  <div class="inside"><div class="wrapper">
+    <aside>
+      <p style="font-size:0.8em; text-align:right">
+        <a href="images/screenshots/stereosourceseparator.png" rel="lightbox[stereosourceseparator]"><img src="images/screenshots/stereosourceseparator_thumb.png" alt=""/></a><br/>Stereo Source Separator&nbsp;&nbsp;
+      </p>
+    </aside>
+    <section class="content">
+      <article>
+        <h2>Stereo Source Separator</h2>
+        <p>This is a plugin that uses the spatial information hidden in the stereo signal to accomplish source separation.</p>
+        <p>Official project page: <a href="https://github.com/laixinyuan/StereoSourceSepartion" target="_blank">https://github.com/laixinyuan/StereoSourceSepartion</a></p>
+        <div class="button">
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_stereosourceseparator" alt="download" />
+          <ul class="the_menu the_menu_stereosourceseparator">
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/stereosourceseparator-linux32bit.tar.xz/download" target="_blank">Stereo Source Separator - Linux 32bit</a></li>
+            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/stereosourceseparator-linux64bit.tar.xz/download" target="_blank">Stereo Source Separator - Linux 64bit</a></li>
           </ul>
         </div>
       </article>
