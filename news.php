@@ -8,6 +8,43 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
   <ul class="news">
 
     <li>
+      <figure><strong>10 Mar</strong><p>2018</p></figure>
+      <h2 class="pointer">New major release</h2>
+      <p>
+          A new release after years without one!<br/>
+          A lot of changes happened on the underlying plugin frameworks (DPF and Juce).
+      </p>
+      <p>
+          The following new ports were added:<br/>
+            - ...<br/>
+            - ...<br/>
+            - ...<br/>
+            - ...<br/>
+      </p>
+      <p>
+          The DPF-based plugins had some changes too:<br/>
+            - ... added<br/>
+            - ProM ...<br/>
+            - DPF-Plugins repo for easy packaging<br/>
+            - ...<br/>
+      </p>
+      <p>
+          Since last release, a few projects have appeared that use DPF. Here's a few:<br/>
+            - ...<br/>
+            - ...<br/>
+            - ...<br/>
+            - ...<br/>
+      </p>
+      <p>
+          Other small changes relevant to the project:<br/>
+            - Nekobi moved to plugins (used to be in ports), as original developer is happy with it (has git repo RW access too)<br/>
+            - DPF with ... transport, jack, etc<br/>
+            - ...<br/>
+      </p>
+      <p><a href="..." target="_blank">Comments and discussion</a>
+    </li>
+
+    <li>
       <figure><strong>26 Aug</strong><p>2014</p></figure>
       <h2 class="pointer">New plugins and minor fixing</h2>
       <p>In this release we bring 4 new Linux plugin ports:<br/>

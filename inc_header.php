@@ -1,11 +1,11 @@
 <?php
 
-function changeColor()
-{
-    if ($GLOBALS["THEME"] == "white")
+function changeColor() {
+    if ($GLOBALS["THEME"] == "white") {
         $GLOBALS["THEME"] = "black";
-    else
+    } else {
         $GLOBALS["THEME"] = "white";
+    }
 
     setcookie("color-theme", $GLOBALS["THEME"], time() + (365 * 24 * 60 * 60)); // expires in 1 year
 
@@ -14,18 +14,21 @@ function changeColor()
     exit();
 }
 
-if (file_exists("/Shared/Personal/FOSS/"))
+if (file_exists("/Shared/Personal/FOSS/")) {
     $ROOT = "/distrho";
-else
+} else {
     $ROOT = "";
+}
 
-if (isset($_COOKIE["color-theme"]))
+if (isset($_COOKIE["color-theme"])) {
     $GLOBALS["THEME"] = htmlspecialchars($_COOKIE["color-theme"]);
-else
+} else {
     $GLOBALS["THEME"] = "white";
+}
 
-if (isset($_POST["changeColorNow"]))
+if (isset($_POST["changeColorNow"])) {
     changeColor();
+}
 
 ?>
 <!DOCTYPE html>
@@ -51,12 +54,13 @@ if (isset($_POST["changeColorNow"]))
   <script type="text/javascript" src="<?php echo $ROOT; ?>/js/scriptaculous.js?load=effects,builder"></script>
   <script type="text/javascript">
 <?php
-    if ($CURRENT_PAGE == "plugins")
+    if ($CURRENT_PAGE == "plugins") {
         $menuClasses = array("miniseries", "prom");
-    else if ($CURRENT_PAGE == "ports")
+    } else if ($CURRENT_PAGE == "ports") {
         $menuClasses = array("arctican", "dexed", "drowaudio", "easyssp", "juced", "klangfalter", "lufsmeter", "luftikus", "mverb", "nekobi", "obxd", "pitcheddelay", "tal", "stereosourceseparator", "vex", "wolpertinger");
-    else
+    } else {
         $menuClasses = array();
+    }
 ?>
     jQuery(document).ready(function() {
 <?php for ($i = 0; $i < count($menuClasses); $i++) { ?>

@@ -26,6 +26,11 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     <!-- .news -->
     <ul class="news">
       <li>
+        <figure><strong>10 Mar</strong><p>2018<p></figure>
+        <h3>New release and fixes</h3>
+        <p>New plugins, lots of internal changes.</p>
+      </li>
+      <li>
         <figure><strong>26 Aug</strong><p>2014<p></figure>
         <h3>New plugins and minor fixing</h3>
         <p>4 new Linux ports and minor fixes.</p>
@@ -39,11 +44,6 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <figure><strong>18 May</strong><p>2012<p></figure>
         <h3>New release pack</h3>
         <p>We just released our own custom plugins and more ports now with LV2 versions.</p>
-      </li>
-      <li>
-        <figure><strong>07 Oct</strong><p>2011<p></figure>
-        <h3>New and updated ports</h3>
-        <p>We updated the Linux ports, and added a few more too.</p>
       </li>
     </ul>
     <!-- /.news -->
@@ -62,11 +62,11 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         LV2 and VST versions are always available, sometimes with LADSPA and DSSI as well.
       </p>
       <p>
-        The last release is '2014-07-16'.<br/>
+        The last release is '2018-05-10'.<br/>
         You can find the entire <b>source code at <a href="https://github.com/DISTRHO/" target="_blank">https://github.com/DISTRHO/</a></b>.
       </p>
       <p>
-        Check the <b><a href="<?php echo $ROOT; ?>/plugins">plugins</a></b> and <b><a href="<?php echo $ROOT; ?>/ports">[Linux] ports</a></b> sections to see the full list or download binaries.<br/>
+        Check the <b><a href="<?php echo $ROOT; ?>/plugins">plugins</a></b> and <b><a href="<?php echo $ROOT; ?>/ports">(Linux) ports</a></b> sections to see the full list or download binaries.<br/>
       </p>
     </article>
   </section>

@@ -24,10 +24,10 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
             <img src="https://graph.facebook.com/falktx/picture?type=normal" alt="">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </td><td>
-            <h3><a href="http://www.facebook.com/falktx" target="blank">Filipe Coelho (aka 'falkTX')</a></h3>
+            <h3><a href="http://www.falktx.com" target="blank">Filipe Coelho (aka 'falkTX')</a></h3>
             <p><b>Project leader</b>, does the main code and overall management.<br/>
-               He's also the leader of DISTRHO's parent project <a href="http://kxstudio.sf.net">KXStudio</a>.<br/>
-               Contact: <a href="mailto:falktx@gmail.com">falktx@gmail.com</a></p>
+               He's also the leader of DISTRHO's parent project <a href="http://kxstudio.linuxaudio.org">KXStudio</a>.<br/>
+               Contact: <a href="mailto:falktx@falktx.com">falktx@falktx.com</a></p>
           </td></tr>
           <tr><td><p><br/></p></td><td><p><br/></p></td></tr>
           <tr><td>
