@@ -63,9 +63,9 @@ $URL_PORTS = "https://github.com/DISTRHO/DISTRHO-Ports/releases/download/" . $VE
     if ($CURRENT_PAGE == "plugins") {
         $menuClasses = array("miniseries", "nekobi", "kars", "glbars", "prom");
     } else if ($CURRENT_PAGE == "ports") {
-        $menuClasses = array("arctican", "dexed", "drowaudio", "easyssp", "juced", "klangfalter", "lufsmeter",
-                             "luftikus", "mverb", "ndc", "obxd", "pitcheddelay", "tal", "stereosourceseparator",
-                             "vex", "wolpertinger");
+        $menuClasses = array("arctican", "dexed", "drowaudio", "easyssp", "juceopl", "juced", "klangfalter",
+                             "lufsmeter", "luftikus", "mverb", "ndc", "obxd", "pitcheddelay", "refine", "tal",
+                             "stereosourceseparator", "vex", "wolpertinger");
     } else {
         $menuClasses = array();
     }
