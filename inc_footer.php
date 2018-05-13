@@ -13,10 +13,10 @@
           &nbsp; &nbsp;
           <span style="float:right;">
             Sponsored by
-              <a href="http://kxstudio.linuxaudio.org" target="_blank">KXStudio</a>
+              <a href="https://kxstudio.linuxaudio.org" target="_blank">KXStudio</a>
             &nbsp; &nbsp;|&nbsp; &nbsp;
             All the plugins and Linux ports here are free, please consider a
-              <a href="http://kxstudio.sourceforge.net/Donations" target="_blank">donation</a>
+              <a href="https://kxstudio.linuxaudio.org/Donations" target="_blank">donation</a>
             if possible.
           </span>
         </p>

@@ -43,11 +43,11 @@ $URL_PORTS = "https://github.com/DISTRHO/DISTRHO-Ports/releases/download/" . $VE
   <title>DISTRHO - Cross-Platform Audio Plugins</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="<?php echo $ROOT; ?>/css-<?php echo $GLOBALS["THEME"]; ?>/reset.css" type="text/css" media="all">
-  <link rel="stylesheet" href="<?php echo $ROOT; ?>/css-<?php echo $GLOBALS["THEME"]; ?>/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="<?php echo $ROOT; ?>/css-<?php echo $GLOBALS["THEME"]; ?>/style.css?v=2" type="text/css" media="all">
 <?php if ($CURRENT_PAGE == "index") { ?>
   <link rel="stylesheet" href="<?php echo $ROOT; ?>/css-<?php echo $GLOBALS["THEME"]; ?>/style-mini-news.css" type="text/css" media="all">
 <?php } ?>
-  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Raleway:200,300' type='text/css' media="all">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:200,300' type='text/css' media="all">
   <script type="text/javascript" src="<?php echo $ROOT; ?>/js/jquery-1.4.2.min.js" ></script>
 <?php if ($CURRENT_PAGE == "index") { ?>
   <script type="text/javascript" src="<?php echo $ROOT; ?>/js/roundabout.js"></script>
