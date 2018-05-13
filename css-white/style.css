@@ -10,6 +10,8 @@ body {
         font-size:100%;
         line-height:1.125em;
         color:#272727/*#7A7A7A*/;
+        display:flex;
+        flex-direction:column;
 }
 html { min-width:1000px;}
 html, body { height:100%;background-color:#1E1F1F; }
@@ -27,13 +29,15 @@ hr { color:#D6D6D64D; background-color:transparent; }
         /* Header */
         header{
                 height:72px;
+                min-height:72px;
                 overflow:hidden;
                 background:url(../images/header-bg_white.gif) 0 0 repeat-x;
         }
 
         /*Gallery*/
         #gallery {
-                height:496px;
+                height:380px;
+                min-height:380px;
                 overflow:hidden;
                 background:url(../images/gallerry-bg_white.jpg) 0 0 repeat-x;
         }
@@ -251,7 +255,7 @@ h3 {
         border-top:5px solid #f9f9f9;
         background:#f9f9f9;
         width:100%;
-/*         min-height:80%; */
+        flex:1;
 }
 
 

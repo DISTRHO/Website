@@ -15,7 +15,7 @@
             Sponsored by
               <a href="http://kxstudio.linuxaudio.org" target="_blank">KXStudio</a>
             &nbsp; &nbsp;|&nbsp; &nbsp;
-            All the plugins and linux ports here are free, please consider a
+            All the plugins and Linux ports here are free, please consider a
               <a href="http://kxstudio.sourceforge.net/Donations" target="_blank">donation</a>
             if possible.
           </span>

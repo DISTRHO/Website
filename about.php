@@ -21,7 +21,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <!-- team-list -->
         <table>
           <tr><td>
-            <img src="https://graph.facebook.com/falktx/picture?type=normal" alt="">
+            <img src="images/falktx.jpg" width="80px" alt="">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </td><td>
             <h3><a href="http://www.falktx.com" target="blank">Filipe Coelho (aka 'falkTX')</a></h3>
@@ -31,7 +31,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
           </td></tr>
           <tr><td><p><br/></p></td><td><p><br/></p></td></tr>
           <tr><td>
-            <img src="https://graph.facebook.com/melmaquiano/picture?type=normal" alt="">
+            <img src="images/melmaquiano.jpg" width="80px" alt="">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </td><td>
             <h3><a href="http://www.facebook.com/melmaquiano" target="blank">Ant&oacute;nio Saraiva (aka 'nieee')</a></h3>
