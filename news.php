@@ -8,40 +8,53 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
   <ul class="news">
 
     <li>
-      <figure><strong>10 Mar</strong><p>2018</p></figure>
+      <figure><strong>13 Mar</strong><p>2018</p></figure>
       <h2 class="pointer">New major release</h2>
       <p>
           A new release after years without one!<br/>
-          A lot of changes happened on the underlying plugin frameworks (DPF and Juce).
+          A lot of changes happened on the underlying plugin frameworks (DPF and Juce).<br/>
+          We also updated the way updates are handled, so it will be less work for next time<br/>
+          (and thus, hopefully, have updates more often from now on)
       </p>
       <p>
-          The following new ports were added:<br/>
-            - ...<br/>
-            - ...<br/>
-            - ...<br/>
-            - ...<br/>
+          The amount of changes in the plugin frameworks is so big (it has been 4 years since last release!),<br/>
+          that we are not going to write about them in detail.<br/>
+          But the major highlights follow below.
+      </p>
+      <p>
+          The following new Linux ports were added: (LV2 and VST)<br/>
+            - JuceOPL<br/>
+            - ReFine<br/>
       </p>
       <p>
           The DPF-based plugins had some changes too:<br/>
-            - ... added<br/>
-            - ProM ...<br/>
-            - DPF-Plugins repo for easy packaging<br/>
-            - ...<br/>
+            - glBars added<br/>
+            - Kars added<br/>
+            - ndc-Plugs added<br/>
+            - A new DPF-Plugins git repo was created, for easy packaging of all our plugins<br/>
+            - MAX gen~ based plugins can be created, see
+                <a href="https://github.com/DISTRHO/DPF-Max-Gen" target="_blank">this link</a><br/>
       </p>
       <p>
           Since last release, a few projects have appeared that use DPF. Here's a few:<br/>
-            - ...<br/>
-            - ...<br/>
-            - ...<br/>
-            - ...<br/>
+            - <a href="https://gitlab.com/ftz/chiptune/" target="_blank">
+                FTZ Chiptune</a> - Collection of basic waveform synths<br/>
+            - <a href="https://github.com/rghvdberg/ninjas/" target="_blank">
+                 Ninjas</a> - Sample Slicing Plugin<br/>
+            - <a href="https://github.com/pdesaulniers/wolf-shaper/" target="_blank">
+                Wolf-Shaper</a> - Waveshaper with graph editor<br/>
+            - <a href="http://www.zamaudio.com/?p=976" target="_blank">
+                ZamAudio plugin collection</a><br/>
+            - <a href="http://zynaddsubfx.sourceforge.net/" target="_blank">ZynAddSubFX</a>,
+                uses DPF for its plugin support<br/>
       </p>
       <p>
           Other small changes relevant to the project:<br/>
-            - Nekobi moved to plugins (used to be in ports), as original developer is happy with it (has git repo RW access too)<br/>
-            - DPF with ... transport, jack, etc<br/>
-            - ...<br/>
+            - Nekobi moved to plugins (used to be in ports), as original developer is happy with it<br/>
+            &nbsp;&nbsp;&nbsp;(and has RW access to our git repo too)<br/>
+            - The DPF "framework" has evolved with JACK Standalone export, Transport sync among other things<br/>
       </p>
-      <p><a href="..." target="_blank">Comments and discussion</a>
+      <p><a href="https://www.kvraudio.com/forum/viewtopic.php?f=191&t=504728" target="_blank">Comments and discussion</a>
     </li>
 
     <li>

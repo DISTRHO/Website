@@ -26,7 +26,7 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     <!-- .news -->
     <ul class="news">
       <li>
-        <figure><strong>10 Mar</strong><p>2018<p></figure>
+        <figure><strong>13 Mar</strong><p>2018<p></figure>
         <h3>New release and fixes</h3>
         <p>New plugins, lots of internal changes.</p>
       </li>
