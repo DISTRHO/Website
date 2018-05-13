@@ -1,4 +1,9 @@
 binaries/*.xz
 binaries/*.zip
-binaries/debs/
-binaries/tmp/
+binaries/downloads/
+binaries/*/*/README.txt
+binaries/linux*/*/*/Ma*.*
+binaries/linux*/*/*/HiReSam.*
+binaries/linux*/*/*/JuceDemoPlugin.*
+binaries/macOS/*/Ma*.*
+binaries/win*/*/Ma*.*

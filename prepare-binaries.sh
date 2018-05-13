@@ -3,149 +3,158 @@
 set -e
 
 mkdir -p binaries
-mkdir -p binaries/debs
-
+mkdir -p binaries/downloads
 rm -f binaries/*.xz
+rm -f binaries/*.zip
 
-# --------------------------------------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------------------------
 # set vars
 
-DISTRHO_VERSION=20140825-1kxstudio3
-REPO_FILES_URL=https://launchpad.net/~kxstudio-debian/+archive/ubuntu/plugins/+files/
+PORTS_VERSION=2018-04-16
+PORTS_URL=https://github.com/DISTRHO/DISTRHO-Ports/releases/download
+
+PLUGINS_VERSION=v1.1
+PLUGINS_URL=https://github.com/DISTRHO/DPF-Plugins/releases/download
 
 export XZ_OPT=9
 
-# --------------------------------------------------------------------------------------------------------------------------------
-# download debs
+# ---------------------------------------------------------------------------------------------------------------------
+# download release
 
-function downloadDeb() {
-cd binaries/debs
-cp -v /var/cache/apt/archives/"$1"_1%3a"$2"_amd64.deb "$1"_"$2"_amd64.deb || true
-cp -v /var/cache/apt/archives/"$1"_1%3a"$2"_i386.deb "$1"_"$2"_i386.deb || true
-wget -c "$REPO_FILES_URL""$1"_"$2"_amd64.deb
-wget -c "$REPO_FILES_URL""$1"_"$2"_i386.deb
+function downloadPorts() {
+cd binaries/downloads
+wget -c ${PORTS_URL}/${PORTS_VERSION}/DISTRHO-Ports-${PORTS_VERSION}-linux${1}.tar.xz
 cd ../..
 }
 
-function downloadDebDistrho() {
-downloadDeb "$1-lv2" "$DISTRHO_VERSION"
-downloadDeb "$1-vst" "$DISTRHO_VERSION"
+function downloadPlugins() {
+cd binaries/downloads
+wget -c ${PLUGINS_URL}/${PLUGINS_VERSION}/DPF-Plugins-${PLUGINS_VERSION}-linux32bit.tar.gz
+wget -c ${PLUGINS_URL}/${PLUGINS_VERSION}/DPF-Plugins-${PLUGINS_VERSION}-linux64bit.tar.gz
+wget -c ${PLUGINS_URL}/${PLUGINS_VERSION}/DPF-Plugins-${PLUGINS_VERSION}-macOS.zip
+wget -c ${PLUGINS_URL}/${PLUGINS_VERSION}/DPF-Plugins-${PLUGINS_VERSION}-win32bit.zip
+wget -c ${PLUGINS_URL}/${PLUGINS_VERSION}/DPF-Plugins-${PLUGINS_VERSION}-win64bit.zip
+cd ../..
 }
 
-downloadDeb distrho-mini-series 20140826-1kxstudio1
-downloadDeb distrho-mverb       20140826-1kxstudio1
-downloadDeb distrho-nekobi      20140826-1kxstudio1
-downloadDeb distrho-prom        20140826-1kxstudio1
+downloadPorts 32
+downloadPorts 64
 
-downloadDebDistrho arctican-plugins
-downloadDebDistrho dexed
-downloadDebDistrho distrho-plugin-ports
-downloadDebDistrho drowaudio-plugins
-downloadDebDistrho easyssp
-downloadDebDistrho juced-plugins
-downloadDebDistrho klangfalter
-downloadDebDistrho lufsmeter
-downloadDebDistrho luftikus
-downloadDebDistrho obxd
-downloadDebDistrho pitcheddelay
-downloadDebDistrho tal-plugins
-downloadDebDistrho wolpertinger
+downloadPlugins
 
-# --------------------------------------------------------------------------------------------------------------------------------
-# extract debs and pack them
+# ---------------------------------------------------------------------------------------------------------------------
+# extract all packages
 
-function compressFolderAsTarXZ() {
-rm -f "$1.tar" "$1.tar.xz"
-tar cJf "$1.tar.xz" "$1"
-rm -r "$1"
-}
-
-function extractDebAndPackIt_DPF() {
 cd binaries
+rm -rf linux32 linux64 macOS win32 win64 tmp
 
-mkdir -p tmp
-rm -rf tmp/*
-
-NAME="$1"
-
-mkdir -p "$NAME-linux32bit"
-dpkg -x debs/"$1"_*_i386.deb tmp
-mv tmp/usr/lib/*/*.so tmp/usr/lib/lv2/*.lv2/ "$NAME-linux32bit"
-mv tmp/usr/lib/dssi/*-dssi/ "$NAME-linux32bit" || true
-cp "README-DPF" "$NAME-linux32bit/README"
-compressFolderAsTarXZ "$NAME-linux32bit"
-rm -rf tmp/*
-
-mkdir -p "$NAME-linux64bit"
-dpkg -x debs/"$1"_*_amd64.deb tmp
-mv tmp/usr/lib/*/*.so tmp/usr/lib/lv2/*.lv2/ "$NAME-linux64bit"
-mv tmp/usr/lib/dssi/*-dssi/ "$NAME-linux64bit" || true
-cp "README-DPF" "$NAME-linux64bit/README"
-compressFolderAsTarXZ "$NAME-linux64bit"
-rm -rf tmp/*
-
-cd ..
-}
-
-function extractDebAndPackIt_DISTRHO() {
-cd binaries
-
-mkdir -p tmp
-rm -rf tmp/*
-
-if [ "$2" != "" ]; then
-NAME="$2"
+function extractPkgsForArch() {
+mkdir "$1"
+cd "$1"
+if (echo $1 | grep -q "linux"); then
+    tar xf ../downloads/*"$1"*.gz
+    tar xf ../downloads/*"$1"*.xz
 else
-NAME="$1"
+    unzip ../downloads/*"$1"*.zip
 fi
-
-mkdir -p "$NAME-linux32bit"
-dpkg -x debs/"$1"-lv2_*_i386.deb tmp
-dpkg -x debs/"$1"-vst_*_i386.deb tmp
-mv tmp/usr/lib/*/*.so tmp/usr/lib/lv2/*.lv2/ "$NAME-linux32bit"
-cp "README-DISTRHO" "$NAME-linux32bit/README"
-if [ "$2" == "stereosourceseparation" ]; then
-rm -r */JuceDemoPlugin.* */Vex.*
-elif [ "$2" == "vex" ]; then
-rm -r */JuceDemoPlugin.* */StereoSourceSeparation.*
-fi
-compressFolderAsTarXZ "$NAME-linux32bit"
-rm -rf tmp/*
-
-mkdir -p "$NAME-linux64bit"
-dpkg -x debs/"$1"-lv2_*_amd64.deb tmp
-dpkg -x debs/"$1"-vst_*_amd64.deb tmp
-mv tmp/usr/lib/*/*.so tmp/usr/lib/lv2/*.lv2/ "$NAME-linux64bit"
-cp "README-DISTRHO" "$NAME-linux64bit/README"
-if [ "$2" == "stereosourceseparation" ]; then
-rm -r */JuceDemoPlugin.* */Vex.*
-elif [ "$2" == "vex" ]; then
-rm -r */JuceDemoPlugin.* */StereoSourceSeparation.*
-fi
-compressFolderAsTarXZ "$NAME-linux64bit"
-rm -rf tmp/*
-
 cd ..
 }
 
-extractDebAndPackIt_DPF distrho-mini-series
-extractDebAndPackIt_DPF distrho-mverb
-extractDebAndPackIt_DPF distrho-nekobi
-extractDebAndPackIt_DPF distrho-prom
+extractPkgsForArch linux32
+extractPkgsForArch linux64
+extractPkgsForArch macOS
+extractPkgsForArch win32
+extractPkgsForArch win64
 
-extractDebAndPackIt_DISTRHO arctican-plugins
-extractDebAndPackIt_DISTRHO dexed
-extractDebAndPackIt_DISTRHO distrho-plugin-ports stereosourceseparation
-extractDebAndPackIt_DISTRHO distrho-plugin-ports vex
-extractDebAndPackIt_DISTRHO drowaudio-plugins
-extractDebAndPackIt_DISTRHO easyssp
-extractDebAndPackIt_DISTRHO juced-plugins
-extractDebAndPackIt_DISTRHO klangfalter
-extractDebAndPackIt_DISTRHO lufsmeter
-extractDebAndPackIt_DISTRHO luftikus
-extractDebAndPackIt_DISTRHO obxd
-extractDebAndPackIt_DISTRHO pitcheddelay
-extractDebAndPackIt_DISTRHO tal-plugins
-extractDebAndPackIt_DISTRHO wolpertinger
+cd ..
 
-# --------------------------------------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------------------------
+# pack Stuff
+
+function packSingleOS() {
+RTYPE="$1"
+OS="$2"
+
+rm -rf tmp
+mkdir tmp
+for p in $PLUGINS; do
+    if (echo $OS | grep -q "linux"); then
+        mv $OS/*/*/$p* tmp/
+    else
+        mv $OS/*/$p* tmp/
+    fi
+done
+if [ "$RTYPE" = "DPF" ]; then
+    cp $OS/*/README* tmp/
+else
+    cp README-$RTYPE tmp/README
+fi
+mv tmp $PACK_NAME-$OS
+if (echo $OS | grep -q "linux"); then
+    rm -f $PACK_NAME-$OS.tar.xz
+    tar cJf $PACK_NAME-$OS.tar.xz $PACK_NAME-$OS
+else
+    rm -f $PACK_NAME-$OS.zip
+    zip -r $PACK_NAME-$OS.zip $PACK_NAME-$OS
+fi
+rm -r $PACK_NAME-$OS
+}
+
+function packPlugins() {
+PACK_NAME="$1"
+PLUGINS="$2 $3 $4 $5 $6"
+
+packSingleOS DPF linux32
+packSingleOS DPF linux64
+packSingleOS DPF macOS
+packSingleOS DPF win32
+packSingleOS DPF win64
+
+}
+
+function packPorts() {
+PACK_NAME="$1"
+PLUGINS="$2 $3 $4 $5 $6"
+
+packSingleOS DISTRHO linux32
+packSingleOS DISTRHO linux64
+
+}
+
+# ---------------------------------------------------------------------------------------------------------------------
+# pack everything!!
+
+cd binaries
+
+# Plugins
+packPlugins distrho-glbars      glBars
+packPlugins distrho-kars        Kars
+packPlugins distrho-mini-series 3BandEQ 3BandSplitter PingPongPan
+packPlugins distrho-nekobi      Nekobi
+# packPlugins distrho-prom        ProM
+
+# Ports, from DPF
+packPlugins mverb       MVerb
+packPlugins ndc-plugins AmplitudeImposer CycleShifter SoulForce
+
+# Ports, from Juce
+packPorts arctican-plugins       TheFunction ThePilgrim
+packPorts dexed                  Dexed
+packPorts drowaudio-plugins      drowaudio-
+packPorts easyssp                EasySSP
+packPorts juce-opl               JuceOPL
+packPorts juced-plugins          drumsynth eqinox
+packPorts klangfalter            KlangFalter
+packPorts lufsmeter              LUFSMeter
+packPorts luftikus               Luftikus
+packPorts obxd                   Obxd
+packPorts pitcheddelay           PitchedDelay
+packPorts refine                 ReFine
+packPorts stereosourceseparation StereoSourceSeparation
+packPorts tal-plugins            TAL
+packPorts vex                    Vex vex
+packPorts wolpertinger           Wolpertinger
+
+cd ..
+
+# ---------------------------------------------------------------------------------------------------------------------
