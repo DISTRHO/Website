@@ -24,6 +24,5 @@
     </div>
   </div>
 </footer>
-<script type="text/javascript"> Cufon.now(); </script>
 </body>
 </html>
