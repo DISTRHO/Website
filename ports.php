@@ -30,6 +30,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     </section>
   </div></div>
 
+  <hr/>
+
   <!-- Dexed -->
   <div class="inside"><div class="wrapper">
     <aside>
@@ -53,6 +55,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
       </article>
     </section>
   </div></div>
+
+  <hr/>
 
   <!-- dRowAudio Plugins -->
   <div class="inside"><div class="wrapper">
@@ -81,6 +85,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     </section>
   </div></div>
 
+  <hr/>
+
   <!-- EasySSP -->
   <div class="inside"><div class="wrapper">
     <aside>
@@ -103,6 +109,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
       </article>
     </section>
   </div></div>
+
+  <hr/>
 
   <!-- Juced Plugins -->
   <div class="inside"><div class="wrapper">
@@ -129,6 +137,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
       </article>
     </section>
   </div></div>
+
+  <hr/>
 
   <!-- KlangFalter -->
   <div class="inside"><div class="wrapper">
@@ -162,6 +172,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     </section>
   </div></div>
 
+  <hr/>
+
   <!-- LUFS Meter -->
   <div class="inside"><div class="wrapper">
     <aside>
@@ -184,6 +196,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
       </article>
     </section>
   </div></div>
+
+  <hr/>
 
   <!-- Luftikus -->
   <div class="inside"><div class="wrapper">
@@ -208,11 +222,13 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     </section>
   </div></div>
 
+  <hr/>
+
   <!-- MVerb -->
   <div class="inside"><div class="wrapper">
     <aside>
       <p style="font-size:0.8em; text-align:right">
-        <a href="images/screenshots/mverb.png" rel="lightbox[mverb]"><img src="images/screenshots/mverb_thumb.png" alt=""/></a><br/>MVerb&nbsp;&nbsp;
+        <a href="images/screenshots/mverb.png" rel="lightbox[mverb]"><img src="images/screenshots/mverb.png" width="200px" alt=""/></a><br/>MVerb&nbsp;&nbsp;
       </p>
     </aside>
     <section class="content">
@@ -221,40 +237,58 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
         <p>MVerb is a studio quality, open-source reverb.</p>
         <p>Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and
            provide the open source community with a high quality reverb.</p>
-        <p>Port project page: <a href="https://github.com/DISTRHO/MVerb" target="_blank">https://github.com/DISTRHO/MVerb</a></p>
+        <p>Project page: <a href="https://github.com/DISTRHO/MVerb" target="_blank">https://github.com/DISTRHO/MVerb</a></p>
         <div class="button">
           <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_mverb" alt="download" />
           <ul class="the_menu the_menu_mverb">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/distrho-mverb-linux32bit.tar.xz/download" target="_blank">MVerb - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/distrho-mverb-linux64bit.tar.xz/download" target="_blank">MVerb - Linux 64bit</a></li>
+            <li><a href="<?php echo $URL_DPF ?>/mverb-linux32.tar.xz" target="_blank">MVerb - Linux 32bit</a></li>
+            <li><a href="<?php echo $URL_DPF ?>/mverb-linux64.tar.xz" target="_blank">MVerb - Linux 64bit</a></li>
+            <li><a href="<?php echo $URL_DPF ?>/mverb-macOS.zip" target="_blank">MVerb - macOS</a></li>
+            <li><a href="<?php echo $URL_DPF ?>/mverb-win32.zip" target="_blank">MVerb - Windows 32bit</a></li>
+            <li><a href="<?php echo $URL_DPF ?>/mverb-win64.zip" target="_blank">MVerb - Windows 64bit</a></li>
           </ul>
         </div>
       </article>
     </section>
   </div></div>
 
-  <!-- Nekobi -->
+  <hr/>
+
+  <!-- ndc-Plugs -->
   <div class="inside"><div class="wrapper">
     <aside>
       <p style="font-size:0.8em; text-align:right">
-        <a href="images/screenshots/nekobi.png" rel="lightbox[nekobi]"><img src="images/screenshots/nekobi_thumb.png" alt=""/></a><br/>Nekobi&nbsp;&nbsp;
+        <a href="images/screenshots/ndc-amplitudeimposer.png" rel="lightbox[ndc]" class="hidden"></a>
+        <a href="images/screenshots/ndc-cycleshifter.png"     rel="lightbox[ndc]" class="hidden"></a>
+        <a href="images/screenshots/ndc-soulforce.png"        rel="lightbox[ndc]"><img src="images/screenshots/ndc-soulforce.png" width="200px" alt=""/></a><br/>Soul Force&nbsp;&nbsp;
       </p>
     </aside>
     <section class="content">
       <article>
-        <h2>Nekobi</h2>
-        <p>Nekobi is a simple single-oscillator synth based on the Roland TB-303.</p>
-        <p>Port project page: <a href="https://github.com/DISTRHO/Nekobi" target="_blank">https://github.com/DISTRHO/Nekobi</a></p>
+        <h2>ndc-Plugs</h2>
+        <p>DPF'ied ports of some plugins from Niall Moody.<br/>
+        See <a href="http://www.niallmoody.com/ndcplugs/plugins.htm" target="_blank">http://www.niallmoody.com/ndcplugs/plugins.htm</a> for the original author's page.</p>
+        <p>This collection currently includes:<br/>
+        - Amplitude Imposer<br/>
+        - Cycle Shifter<br/>
+        - Soul Force<br/>
+        </p>
+        <p>Project page: <a href="https://github.com/DISTRHO/ndc-Plugs" target="_blank">https://github.com/DISTRHO/ndc-Plugs</a></p>
         <div class="button">
-          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_nekobi" alt="download" />
-          <ul class="the_menu the_menu_nekobi">
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/distrho-nekobi-linux32bit.tar.xz/download" target="_blank">Nekobi - Linux 32bit</a></li>
-            <li><a href="http://sourceforge.net/projects/distrho/files/2014-08-26/distrho-nekobi-linux64bit.tar.xz/download" target="_blank">Nekobi - Linux 64bit</a></li>
+          <img src="images/download_<?php echo $GLOBALS["THEME"]; ?>.png" width="92" height="16" class="menu_class_ndc" alt="download" />
+          <ul class="the_menu the_menu_mverb">
+            <li><a href="<?php echo $URL_DPF ?>/ndc-plugins-linux32.tar.xz" target="_blank">ndc-Plugs - Linux 32bit</a></li>
+            <li><a href="<?php echo $URL_DPF ?>/ndc-plugins-linux64.tar.xz" target="_blank">ndc-Plugs - Linux 64bit</a></li>
+            <li><a href="<?php echo $URL_DPF ?>/ndc-plugins-macOS.zip" target="_blank">ndc-Plugs - macOS</a></li>
+            <li><a href="<?php echo $URL_DPF ?>/ndc-plugins-win32.zip" target="_blank">ndc-Plugs - Windows 32bit</a></li>
+            <li><a href="<?php echo $URL_DPF ?>/ndc-plugins-win64.zip" target="_blank">ndc-Plugs - Windows 64bit</a></li>
           </ul>
         </div>
       </article>
     </section>
   </div></div>
+
+  <hr/>
 
   <!-- Obxd -->
   <div class="inside"><div class="wrapper">
@@ -280,6 +314,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     </section>
   </div></div>
 
+  <hr/>
+
   <!-- Pitched Delay -->
   <div class="inside"><div class="wrapper">
     <aside>
@@ -303,6 +339,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     </section>
   </div></div>
 
+  <hr/>
+
   <!-- Stereo Source Separator -->
   <div class="inside"><div class="wrapper">
     <aside>
@@ -325,6 +363,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
       </article>
     </section>
   </div></div>
+
+  <hr/>
 
   <!-- TAL Plugins -->
   <div class="inside"><div class="wrapper">
@@ -358,6 +398,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
     </section>
   </div></div>
 
+  <hr/>
+
   <!-- Vex -->
   <div class="inside"><div class="wrapper">
     <aside>
@@ -379,6 +421,8 @@ include dirname(__FILE__) . DIRECTORY_SEPARATOR . "inc_header.php";
       </article>
     </section>
   </div></div>
+
+  <hr/>
 
   <!-- Wolpertinger -->
   <div class="inside"><div class="wrapper">

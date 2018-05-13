@@ -14,7 +14,7 @@ function changeColor() {
     exit();
 }
 
-if (file_exists("/Shared/Personal/FOSS/")) {
+if (file_exists("/home/falktx/Personal/FOSS/")) {
     $ROOT = "/distrho";
 } else {
     $ROOT = "";
@@ -29,6 +29,12 @@ if (isset($_COOKIE["color-theme"])) {
 if (isset($_POST["changeColorNow"])) {
     changeColor();
 }
+
+$VERSION_DPF   = "v1.1";
+$VERSION_PORTS = "2018-04-16";
+
+$URL_DPF   = "https://github.com/DISTRHO/DPF-Plugins/releases/download/" . $VERSION_DPF;
+$URL_PORTS = "https://github.com/DISTRHO/DISTRHO-Ports/releases/download/" . $VERSION_PORTS;
 
 ?>
 <!DOCTYPE html>
@@ -55,9 +61,11 @@ if (isset($_POST["changeColorNow"])) {
   <script type="text/javascript">
 <?php
     if ($CURRENT_PAGE == "plugins") {
-        $menuClasses = array("miniseries", "prom");
+        $menuClasses = array("miniseries", "nekobi", "kars", "glbars", "prom");
     } else if ($CURRENT_PAGE == "ports") {
-        $menuClasses = array("arctican", "dexed", "drowaudio", "easyssp", "juced", "klangfalter", "lufsmeter", "luftikus", "mverb", "nekobi", "obxd", "pitcheddelay", "tal", "stereosourceseparator", "vex", "wolpertinger");
+        $menuClasses = array("arctican", "dexed", "drowaudio", "easyssp", "juced", "klangfalter", "lufsmeter",
+                             "luftikus", "mverb", "ndc", "obxd", "pitcheddelay", "tal", "stereosourceseparator",
+                             "vex", "wolpertinger");
     } else {
         $menuClasses = array();
     }
