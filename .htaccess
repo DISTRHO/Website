@@ -1,12 +1,12 @@
 Options -Indexes
 
-# RewriteEngine On
-# RewriteCond %{REQUEST_FILENAME} !-f
-# RewriteCond %{REQUEST_FILENAME} !-d
-# RewriteCond %{REQUEST_FILENAME}\.php -f
-# RewriteRule ^(.*)$ $1.php [L,QSA]
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L,QSA]
 
-Redirect 301 /news    https://distrho.sourceforge.io/news.php
-Redirect 301 /plugins https://distrho.sourceforge.io/plugins.php
-Redirect 301 /ports   https://distrho.sourceforge.io/ports.php
-Redirect 301 /about   https://distrho.sourceforge.io/about.php
+# Redirect 301 /news    https://distrho.sourceforge.io/news.php
+# Redirect 301 /plugins https://distrho.sourceforge.io/plugins.php
+# Redirect 301 /ports   https://distrho.sourceforge.io/ports.php
+# Redirect 301 /about   https://distrho.sourceforge.io/about.php
