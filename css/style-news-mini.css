@@ -1,0 +1,33 @@
+.news li {
+    overflow: hidden;
+    position: relative;
+    padding: 0 0 5px 84px;
+}
+.news li figure {
+    color: #818181;
+    font-weight: 300;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.news li figure p {
+    color: #f9f9f9; /* WHITE color:#272727; */
+    display: inline;
+    float: right;
+    font-weight: bold;
+/*     font-size: 1.1rem; */
+    line-height: 1em;
+    margin-right: 7px;
+}
+.news li figure strong {
+    display: inline;
+/*     font-size: 1.1rem; */
+    line-height: 1.6em;
+}
+.news li p {
+    font-size: 0.92rem;
+}

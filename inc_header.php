@@ -21,7 +21,9 @@ $URL_PORTS = "https://github.com/DISTRHO/DISTRHO-Ports/releases/download/" . $VE
   <link rel="stylesheet" href="<?php echo $ROOT; ?>/css/reset.css" type="text/css" media="all">
   <link rel="stylesheet" href="<?php echo $ROOT; ?>/css/style.css" type="text/css" media="all">
 <?php if ($CURRENT_PAGE == "index") { ?>
-  <link rel="stylesheet" href="<?php echo $ROOT; ?>/css/style-mini-news.css" type="text/css" media="all">
+  <link rel="stylesheet" href="<?php echo $ROOT; ?>/css/style-news-mini.css" type="text/css" media="all">
+<?php } else if ($CURRENT_PAGE == "plugins") { ?>
+  <link rel="stylesheet" href="<?php echo $ROOT; ?>/css/style-news-full.css" type="text/css" media="all">
 <?php } ?>
   <link rel='stylesheet' href='<?php echo $ROOT; ?>/fonts/fonts.css' type='text/css' media="all">
 </head>

@@ -1,22 +1,51 @@
 /* Getting the new tags to behave */
-article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
-mark, rp, rt, ruby, summary, time { display:inline; }
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup,
+keygen, meter, nav, output, progress, section, source, video {
+    display: block;
+}
+mark, rp, rt, ruby, summary, time {
+    display:inline;
+}
 
 /* Global properties ======================================================== */
 body {
-        background:#F4F4F4;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 200;
-        font-size:100%;
-        line-height:1.125em;
-        color:#BABABA; /* XX-WHITE #272727 | #7A7A7A */;
-        display:flex;
-        flex-direction:column;
+    color: #BABABA; /* XX-WHITE #272727 | #7A7A7A */;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.125em;
 }
-html { min-width:750px;}
-html, body { height:100%;background-color:#1E1F1F; }
-hr { color:#191A1A4D/* XX-WHITE #D6D6D64D */; background-color:transparent; }
+html {
+    /* FIXME */
+    min-width: 750px;
+}
+html, body {
+    height: 100%;
+    /*background-color: #1E1F1F;*/
+    background-color: #F4F4F4;
+}
+hr {
+    color: #191A1A4D/* XX-WHITE #D6D6D64D */;
+    background-color: transparent;
+}
 
+/*===== footer =====*/
+footer {
+    color: #fff;
+    background-color: #1E1F1F;
+    border-top: 5px solid #1A1A1A /* XX-WHITE #D6D6D6 */;
+    font-size: 0.9rem;
+    padding: 18px 0 18px 0;
+    text-align: center;
+}
+footer a {
+    color: #A3B6B6;
+}
+footer a:hover {
+    color: #ffffff;
+}
 
 /* Global Structure ============================================================= */
 .container {
@@ -92,10 +121,6 @@ hr { color:#191A1A4D/* XX-WHITE #D6D6D64D */; background-color:transparent; }
                 margin:0px 52px 0 0;
         }
         /* Footer */
-        footer{
-                padding:18px 0 18px 0;
-                border-top: 5px solid #1A1A1A /* XX-WHITE #D6D6D6 */;
-        }
 
 
 
@@ -123,7 +148,7 @@ hr { color:#191A1A4D/* XX-WHITE #D6D6D64D */; background-color:transparent; }
 
 /*----- form defaults -----*/
 input, select, textarea {
-        font-family: 'Raleway', sans-serif;
+        font-family: sans-serif;
         font-size:1em;
         vertical-align:middle;
         font-weight:normal;
@@ -201,7 +226,7 @@ h1 {
                 text-decoration:none;
         }
 h2.pointer a{
-		font-family: 'Raleway', sans-serif;
+		font-family: sans-serif;
         font-size:30px;
         line-height:1.2em;
         font-weight:200;
@@ -212,7 +237,7 @@ h2.pointer a:hover{
 		color:#8a8a8a;
 }
 h2 {
-		font-family: 'Raleway', sans-serif;
+		font-family: sans-serif;
         font-size:30px;
         line-height:1.2em;
         font-weight:200;
@@ -228,7 +253,7 @@ h2 {
                 color:#8a8a8a;
         }
 h3 {
-		font-family: 'Raleway', sans-serif;
+		font-family: sans-serif;
 		font-weight: 300;
         font-size:120%;
         margin-bottom:6px;
@@ -292,7 +317,7 @@ header nav {
                         float:left;
                 }
                         header nav ul li a {
-								font-family:'Raleway', sans-serif;
+								font-family:sans-serif;
 								font-weight: 300;
                                 font-size:22px;
                                 color:#fff/* XX-WHITE #ddd */;
@@ -393,45 +418,6 @@ header nav {
         }
 
 
-/*--- news list styles ---*/
-        .news li {
-                overflow:hidden;
-                position:relative;
-                padding:0 0 10px 84px;
-        }
-        .news li:last-child {
-                padding-bottom:0;
-        }
-
-                .news li figure {
-						font-family: 'Raleway', sans-serif;
-						font-weight: 300;
-                        width:65px;
-                        height:65px;
-                        background:url(../images/date-none.gif) no-repeat 0 0;
-                        position:absolute;
-                        left:0;
-                        top:0;
-                        text-align:center;
-                        color:#818181;
-                        text-transform:uppercase;
-                }
-                        .news li figure strong {
-                                display:inline;
-                                font-size:17px;
-                                line-height:2.0em;
-                                margin-bottom:-7px;
-                                padding-top:4px;
-                        }
-                        .news li figure p {
-                                display:inline;
-                                font-size:17px;
-                                line-height:0.1em;
-								color:#f9f9f9/* XX-WHITE #272727 */;
-								float:right;
-								margin-right:3px;
-                        }
-
 .team-list li {
         width:100%;
         overflow:hidden;
@@ -478,21 +464,6 @@ header nav {
 
 /*#imagens { width:295px; height:170px; overflow:hidden; position:relative;}*/
 
-
-/*===== footer =====*/
-footer {
-        color:#fff;
-	background-color:#1E1F1F;
-}
-        footer .fleft {
-                padding-left:40px;
-        }
-        footer .fright {
-                padding-right:0px;
-        }
-footer a{color:#A3B6B6;}
-
-footer a:hover{color:#ffffff;}
 
 /*----- forms -----*/
 #contacts-form {
@@ -596,7 +567,7 @@ width:300px;
 background-color: #040404/* XX-WHITE #ffffff */;
 }
 .the_menu li a {
-font-family:'Raleway', sans-serif;
+font-family:sans-serif;
 font-weight: 200;
 color:#5D9BAA/* XX-WHITE #2D5B7A */;
 text-decoration:none;
