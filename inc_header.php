@@ -22,7 +22,7 @@ $URL_PORTS = "https://github.com/DISTRHO/DISTRHO-Ports/releases/download/" . $VE
   <link rel="stylesheet" href="<?php echo $ROOT; ?>/css/style.css" type="text/css" media="all">
 <?php if ($CURRENT_PAGE == "index") { ?>
   <link rel="stylesheet" href="<?php echo $ROOT; ?>/css/style-news-mini.css" type="text/css" media="all">
-<?php } else if ($CURRENT_PAGE == "plugins") { ?>
+<?php } else if ($CURRENT_PAGE == "news") { ?>
   <link rel="stylesheet" href="<?php echo $ROOT; ?>/css/style-news-full.css" type="text/css" media="all">
 <?php } ?>
   <link rel='stylesheet' href='<?php echo $ROOT; ?>/fonts/fonts.css' type='text/css' media="all">
