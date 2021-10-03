@@ -6,12 +6,6 @@ if (file_exists("/home/falktx/Personal/FOSS/")) {
     $ROOT = "";
 }
 
-if (isset($_COOKIE["color-theme"])) {
-    $GLOBALS["THEME"] = htmlspecialchars($_COOKIE["color-theme"]);
-} else {
-    $GLOBALS["THEME"] = "white";
-}
-
 $VERSION_DPF   = "v1.1";
 $VERSION_PORTS = "2018-04-16";
 
@@ -24,10 +18,10 @@ $URL_PORTS = "https://github.com/DISTRHO/DISTRHO-Ports/releases/download/" . $VE
 <head>
   <title>DISTRHO - Cross-Platform Audio Plugins</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="<?php echo $ROOT; ?>/css-<?php echo $GLOBALS["THEME"]; ?>/reset.css" type="text/css" media="all">
-  <link rel="stylesheet" href="<?php echo $ROOT; ?>/css-<?php echo $GLOBALS["THEME"]; ?>/style.css?v=2" type="text/css" media="all">
+  <link rel="stylesheet" href="<?php echo $ROOT; ?>/css/reset.css" type="text/css" media="all">
+  <link rel="stylesheet" href="<?php echo $ROOT; ?>/css/style.css" type="text/css" media="all">
 <?php if ($CURRENT_PAGE == "index") { ?>
-  <link rel="stylesheet" href="<?php echo $ROOT; ?>/css-<?php echo $GLOBALS["THEME"]; ?>/style-mini-news.css" type="text/css" media="all">
+  <link rel="stylesheet" href="<?php echo $ROOT; ?>/css/style-mini-news.css" type="text/css" media="all">
 <?php } ?>
   <link rel='stylesheet' href='<?php echo $ROOT; ?>/fonts/fonts.css' type='text/css' media="all">
 </head>

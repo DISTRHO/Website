@@ -3,10 +3,10 @@
                 position:relative;
                 padding:0 0 5px 84px;
      }
-                      
+
                 .news li figure {
 				        font-family: 'Raleway', sans-serif;
-						font-weight: 300;				
+						font-weight: 300;
                         width:59px;
                         height:59px;
                         background:url(../images/date-none.gif) no-repeat 0 0;
@@ -26,20 +26,11 @@
                         }
                         .news li figure p {
 								font-family: 'Raleway', sans-serif;
-								font-weight: 300;						
+								font-weight: 300;
                                 display:inline;
                                 font-size:14px;
                                 line-height:1em;
-								color:#f9f9f9;
+								color:#f9f9f9; /* WHITE color:#272727; */
 								float:right;
-								margin-right:7px;								
-                        }						
-/*                .news li:nth-of-type(4n+2) figure {
-                        background:url(../images/date-bg2.gif) no-repeat 0 0;
-                }
-                .news li:nth-of-type(4n+3) figure {
-                        background:url(../images/date-bg3.gif) no-repeat 0 0;
-                }
-                .news li:nth-of-type(4n+4) figure {
-                        background:url(../images/date-bg4.gif) no-repeat 0 0;
-                }*/
+								margin-right:7px;
+                        }
